@@ -1,116 +1,20 @@
-const state = {
-  range: '1h',
-  metric: 'trend',
-  region: 'all',
-  topic: 'all',
-  query: '',
-  data: []
-};
-
-const ranges = [
-  ['1h','1小時'], ['1d','1天'], ['1w','1週'], ['1m','1個月'], ['6m','6個月'],
-  ['1y','1年'], ['5y','5年'], ['10y','10年'], ['all','全部']
-];
-const metrics = [
-  ['trend','🔥 爆紅'], ['views','👀 瀏覽'], ['likes','❤️ 按讚'], ['replies','💬 留言'], ['shares','🔁 分享']
-];
-
-const els = {
-  rangeTabs: document.querySelector('#rangeTabs'), metricTabs: document.querySelector('#metricTabs'),
-  region: document.querySelector('#regionFilter'), topic: document.querySelector('#topicFilter'),
-  search: document.querySelector('#searchInput'), list: document.querySelector('#rankingList'),
-  template: document.querySelector('#postTemplate'), empty: document.querySelector('#emptyState'),
-  title: document.querySelector('#rankingTitle'), subtitle: document.querySelector('#rankingSubtitle'),
-  heroTitle: document.querySelector('#heroTitle'), heroMeta: document.querySelector('#heroMeta'), heroStats: document.querySelector('#heroStats'),
-  tracked: document.querySelector('#trackedCount'), newEntry: document.querySelector('#newEntryCount'), updatedAt: document.querySelector('#updatedAt'),
-  refresh: document.querySelector('#refreshBtn')
-};
-
-function compact(n) {
-  return new Intl.NumberFormat('zh-TW', { notation: 'compact', maximumFractionDigits: 1 }).format(n);
-}
-function pct(n) { return `${n >= 0 ? '+' : ''}${n.toFixed(0)}%`; }
-function metricValue(post, metric) {
-  if (metric === 'trend') return post.ranges[state.range]?.trend ?? 0;
-  return post.ranges[state.range]?.[metric] ?? 0;
-}
-function deltaValue(post, metric) {
-  return post.ranges[state.range]?.deltas?.[metric] ?? 0;
-}
-
-function makeTabs(target, items, key) {
-  target.innerHTML = '';
-  items.forEach(([value, label]) => {
-    const btn = document.createElement('button');
-    btn.textContent = label;
-    btn.className = state[key] === value ? 'active' : '';
-    btn.addEventListener('click', () => { state[key] = value; makeTabs(target, items, key); render(); });
-    target.appendChild(btn);
-  });
-}
-
-function render() {
-  const filtered = state.data
-    .filter(p => state.region === 'all' || p.region === state.region)
-    .filter(p => state.topic === 'all' || p.topic === state.topic)
-    .filter(p => !state.query || `${p.author} ${p.handle} ${p.text}`.toLowerCase().includes(state.query.toLowerCase()))
-    .sort((a,b) => metricValue(b, state.metric) - metricValue(a, state.metric))
-    .slice(0, 20);
-
-  const rangeLabel = ranges.find(x => x[0] === state.range)?.[1] || '';
-  const metricLabel = metrics.find(x => x[0] === state.metric)?.[1] || '';
-  els.title.textContent = `${metricLabel} Top ${Math.min(20, filtered.length || 20)}`;
-  els.subtitle.textContent = `依最近 ${rangeLabel} 的數據排序；資料架構已預留每小時快照。`;
-  els.list.innerHTML = '';
-  els.empty.hidden = filtered.length > 0;
-
-  filtered.forEach((post, i) => {
-    const node = els.template.content.cloneNode(true);
-    const range = post.ranges[state.range];
-    node.querySelector('.rank').textContent = `#${i+1}`;
-    node.querySelector('.avatar').src = post.avatar;
-    node.querySelector('.author').textContent = post.author;
-    node.querySelector('.handle').textContent = post.handle;
-    node.querySelector('.post-text').textContent = post.text;
-    node.querySelector('.posted-at').textContent = `${post.postedAt} · ${post.region.toUpperCase()}`;
-    node.querySelector('.open-link').href = post.url;
-    const badges = node.querySelector('.badges');
-    if (post.newEntry) badges.insertAdjacentHTML('beforeend', '<span class="badge">NEW</span>');
-    badges.insertAdjacentHTML('beforeend', `<span class="badge">${post.topicLabel}</span>`);
-
-    for (const m of ['views','likes','replies','shares']) {
-      node.querySelector(`.${m}`).textContent = compact(range[m]);
-      node.querySelector(`.${m}Delta`).textContent = `${range.deltas[m] >= 0 ? '+' : ''}${compact(range.deltas[m])}`;
-    }
-    node.querySelector('.trendScore').textContent = Math.round(range.trend).toLocaleString('zh-TW');
-    node.querySelector('.growth').textContent = `${pct(range.growth)} 成長`;
-    els.list.appendChild(node);
-  });
-
-  const top = filtered[0];
-  if (top) {
-    const r = top.ranges[state.range];
-    els.heroTitle.textContent = top.text;
-    els.heroMeta.textContent = `${top.author} ${top.handle} · ${top.postedAt}`;
-    els.heroStats.innerHTML = `<span>Trend ${Math.round(r.trend)}</span><span>👀 ${compact(r.views)}</span><span>❤️ ${compact(r.likes)}</span><span>💬 ${compact(r.replies)}</span><span>🔁 ${compact(r.shares)}</span>`;
-  }
-
-  els.tracked.textContent = state.data.length.toLocaleString('zh-TW');
-  els.newEntry.textContent = state.data.filter(p => p.newEntry).length.toString();
-  els.updatedAt.textContent = new Date().toLocaleTimeString('zh-TW', {hour:'2-digit', minute:'2-digit'});
-}
-
-async function loadData() {
-  const res = await fetch(`data/sample-posts.json?ts=${Date.now()}`);
-  state.data = await res.json();
-  render();
-}
-
-els.region.addEventListener('change', e => { state.region = e.target.value; render(); });
-els.topic.addEventListener('change', e => { state.topic = e.target.value; render(); });
-els.search.addEventListener('input', e => { state.query = e.target.value.trim(); render(); });
-els.refresh.addEventListener('click', loadData);
-
-makeTabs(els.rangeTabs, ranges, 'range');
-makeTabs(els.metricTabs, metrics, 'metric');
-loadData();
+const state={range:'1h',metric:'trend',region:'all',topic:'all',query:'',data:[]};
+const ranges=[['1h','1 小時'],['1d','1 天'],['1w','1 週'],['1m','1 個月'],['6m','6 個月'],['1y','1 年'],['5y','5 年'],['10y','10 年'],['all','全部']];
+const metrics=[['trend','🔥 爆紅'],['views','👀 瀏覽'],['likes','♡ 按讚'],['replies','◌ 留言'],['shares','↗ 分享']];
+const els={rangeTabs:qs('#rangeTabs'),metricTabs:qs('#metricTabs'),region:qs('#regionFilter'),topic:qs('#topicFilter'),search:qs('#searchInput'),list:qs('#rankingList'),template:qs('#postTemplate'),empty:qs('#emptyState'),subtitle:qs('#rankingSubtitle'),tracked:qs('#trackedCount'),newEntry:qs('#newEntryCount'),refresh:qs('#refreshBtn'),updated:qs('#updatedLabel'),spotAvatar:qs('#spotlightAvatar'),spotAuthor:qs('#spotlightAuthor'),spotHandle:qs('#spotlightHandle'),spotText:qs('#spotlightText'),spotScore:qs('#spotlightScore'),spotMetrics:qs('#spotlightMetrics'),spotGrowth:qs('#spotlightGrowth'),spotSpark:qs('#spotlightSpark'),ticker:qs('#tickerContent'),topTopic:qs('#topTopic'),topicTrack:qs('#topicTrack')};
+function qs(s){return document.querySelector(s)}
+function compact(n){return new Intl.NumberFormat('zh-TW',{notation:'compact',maximumFractionDigits:1}).format(n||0)}
+function pct(n){return `${n>=0?'+':''}${Number(n||0).toFixed(0)}%`}
+function metricValue(p,m){return m==='trend'?(p.ranges[state.range]?.trend??0):(p.ranges[state.range]?.[m]??0)}
+function makeTabs(target,items,key){target.innerHTML='';items.forEach(([value,label])=>{const b=document.createElement('button');b.textContent=label;b.className=state[key]===value?'active':'';b.onclick=()=>{state[key]=value;makeTabs(target,items,key);render()};target.appendChild(b)})}
+function filteredData(){return state.data.filter(p=>state.region==='all'||p.region===state.region).filter(p=>state.topic==='all'||p.topic===state.topic).filter(p=>!state.query||`${p.author} ${p.handle} ${p.text}`.toLowerCase().includes(state.query.toLowerCase())).sort((a,b)=>metricValue(b,state.metric)-metricValue(a,state.metric)).slice(0,20)}
+function sparkValues(seed){const base=Math.max(8,Math.min(90,Number(seed)||40));return [28,35,31,43,39,48,54,50,63,58,71,68,78,74,86,Math.min(98,base+25)]}
+function renderSpark(target,seed){target.innerHTML=sparkValues(seed).map((h,i)=>`<i style="height:${Math.max(10,h+(i%3)*2)}%"></i>`).join('')}
+function render(){const data=filteredData();const rangeLabel=ranges.find(x=>x[0]===state.range)?.[1]||'';const metricLabel=metrics.find(x=>x[0]===state.metric)?.[1]||'';els.subtitle.textContent=`${rangeLabel} · ${metricLabel.replace(/^[^\s]+\s?/,'')}排名 · 每小時更新`;els.list.innerHTML='';els.empty.hidden=!!data.length;
+ data.forEach((p,i)=>{const r=p.ranges[state.range]||{};const n=els.template.content.cloneNode(true);n.querySelector('.rank').textContent=String(i+1).padStart(2,'0');n.querySelector('.avatar').src=p.avatar;n.querySelector('.author').textContent=p.author;n.querySelector('.handle').textContent=p.handle;n.querySelector('.post-text').textContent=p.text;n.querySelector('.posted-at').textContent=`${p.postedAt} · ${p.region.toUpperCase()}`;n.querySelector('.open-link').href=p.url;const badges=n.querySelector('.badges');if(p.newEntry)badges.insertAdjacentHTML('beforeend','<span class="badge new">NEW</span>');badges.insertAdjacentHTML('beforeend',`<span class="badge">${p.topicLabel}</span>`);['views','likes','replies','shares'].forEach(m=>{n.querySelector(`.${m}`).textContent=compact(r[m]);n.querySelector(`.${m}Delta`).textContent=`+${compact(r.deltas?.[m]||0)}`});n.querySelector('.trendScore').textContent=Math.round(r.trend||0).toLocaleString('zh-TW');n.querySelector('.growth').textContent=`${pct(r.growth)} 成長`;els.list.appendChild(n)});
+ updateOverview(data,rangeLabel);}
+function updateOverview(data,rangeLabel){els.tracked.textContent=state.data.length.toLocaleString('zh-TW');els.newEntry.textContent=state.data.filter(p=>p.newEntry).length;const now=new Date();els.updated.textContent=`最後更新 ${now.toLocaleTimeString('zh-TW',{hour:'2-digit',minute:'2-digit'})}`;const top=data[0];if(top){const r=top.ranges[state.range]||{};els.spotAvatar.src=top.avatar;els.spotAuthor.textContent=top.author;els.spotHandle.textContent=top.handle;els.spotText.textContent=top.text;els.spotScore.textContent=Math.round(r.trend||0);els.spotGrowth.textContent=`${pct(r.growth)} ${rangeLabel}`;els.spotMetrics.innerHTML=`<span><b>${compact(r.views)}</b> 瀏覽</span><span><b>${compact(r.likes)}</b> 按讚</span><span><b>${compact(r.replies)}</b> 留言</span><span><b>${compact(r.shares)}</b> 分享</span>`;renderSpark(els.spotSpark,r.growth);els.ticker.textContent=`#1 ${top.author} 正在快速上升 · ${pct(r.growth)} 成長 · ${compact(r.views)} 瀏覽 · ${compact(r.likes)} 按讚`}
+ const counts={};data.forEach(p=>counts[p.topicLabel]=(counts[p.topicLabel]||0)+1);const topTopic=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0];if(topTopic){els.topTopic.textContent=topTopic[0];els.topicTrack.style.width='100%';els.topicTrack.firstElementChild?.remove?.();document.documentElement.style.setProperty('--topicPct',`${Math.max(20,topTopic[1]/Math.max(1,data.length)*100)}%`);els.topicTrack.style.width=`${Math.max(20,topTopic[1]/Math.max(1,data.length)*100)}%`;}}
+async function loadData(){els.refresh.classList.add('loading');try{const res=await fetch(`data/sample-posts.json?ts=${Date.now()}`);state.data=await res.json();render()}finally{els.refresh.classList.remove('loading')}}
+els.region.onchange=e=>{state.region=e.target.value;render()};els.topic.onchange=e=>{state.topic=e.target.value;render()};els.search.oninput=e=>{state.query=e.target.value.trim();render()};els.refresh.onclick=loadData;
+makeTabs(els.rangeTabs,ranges,'range');makeTabs(els.metricTabs,metrics,'metric');loadData();

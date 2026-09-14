@@ -1,4 +1,4 @@
-# Threads Trend Radar V1
+# ThreadRank V1
 
 GitHub Pages 可直接開啟的前端原型，包含：
 
