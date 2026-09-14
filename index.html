@@ -2,107 +2,135 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#080808" />
-  <title>ThreadRank — Threads 熱門排行榜</title>
-  <meta name="description" content="ThreadRank 每小時追蹤 Threads 熱門串文、成長速度與互動排行榜。" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#07110d" />
+  <title>ThreadRank — Threads 熱門排行</title>
+  <meta name="description" content="ThreadRank 即時追蹤 Threads 熱門串文與趨勢。" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <div class="ambient a1"></div><div class="ambient a2"></div>
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="#" aria-label="ThreadRank 首頁">
-        <div class="brand-mark"><span>@</span></div>
-        <div class="brand-copy"><strong>ThreadRank</strong><span>Threads Trend Intelligence</span></div>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="ThreadRank 首頁">
+        <span class="brand-icon">↻</span>
+        <span>ThreadRank</span>
       </a>
-      <nav class="main-nav" aria-label="主要導覽">
-        <button class="nav-item active">排行榜</button>
-        <button class="nav-item">爆紅中</button>
-        <button class="nav-item">分類</button>
-        <button class="nav-item">關於</button>
+      <nav class="desktop-nav" aria-label="主選單">
+        <a class="active" href="#top">首頁</a>
+        <a href="#rankings">排行榜</a>
+        <a href="#trends">趨勢</a>
+        <a href="#categories">分類</a>
       </nav>
-      <div class="top-actions">
-        <div class="live-pill"><i></i><span>每小時更新</span></div>
-        <button id="refreshBtn" class="icon-btn" type="button" title="重新整理">↻</button>
+      <div class="header-actions">
+        <button class="round-btn" id="searchToggle" aria-label="搜尋">⌕</button>
+        <button class="round-btn" aria-label="通知">♢<i></i></button>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="hero">
-        <div class="hero-kicker"><span class="pulse-dot"></span> LIVE THREADS RANKING</div>
-        <h1>現在，Threads 上<br><span>大家都在看什麼？</span></h1>
-        <p>從瀏覽、按讚、留言與分享速度，找出此刻真正正在爆紅的串文。</p>
-        <div class="hero-actions">
-          <a href="#leaderboard" class="primary-btn">查看即時榜單 <span>↓</span></a>
-          <span class="hero-note" id="updatedLabel">資料更新中…</span>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> 每小時更新 · DEMO DATA</div>
+        <h1>Threads <em>熱門排行</em></h1>
+        <p>即時追蹤最受歡迎的 Threads 貼文，快速看懂哪些內容正在爆紅。</p>
+        <div class="hero-stats" id="heroStats">
+          <article><b>128.4M</b><span>今日總瀏覽</span></article>
+          <article><b>6.2M</b><span>今日按讚</span></article>
+          <article><b>892K</b><span>今日留言</span></article>
+          <article><b>1.1M</b><span>今日分享</span></article>
         </div>
-      </section>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="globe-grid"></div>
+        <div class="floating-card fc-1"><span>LIVE</span><strong>12,436</strong><small>熱門串文</small></div>
+        <div class="floating-card fc-2"><small>Trend Score</small><strong>92.6</strong><span>↑ 4%</span></div>
+        <div class="scribble">Good Threads<br>Better World</div>
+      </div>
+    </section>
 
-      <section class="spotlight-grid">
-        <article class="spotlight-card" id="spotlightCard">
-          <div class="spotlight-top">
-            <div><span class="mini-label">🔥 #1 FASTEST RISING</span><span class="rank-jump">本小時最熱</span></div>
-            <div class="score-ring"><span id="spotlightScore">—</span><small>Trend</small></div>
-          </div>
-          <div class="spotlight-author"><img id="spotlightAvatar" alt=""><div><strong id="spotlightAuthor">載入中</strong><span id="spotlightHandle"></span></div></div>
-          <p id="spotlightText">正在載入最熱門串文…</p>
-          <div class="spotlight-metrics" id="spotlightMetrics"></div>
-          <div class="spark-wrap"><div class="spark-label"><span>熱度走勢</span><b id="spotlightGrowth">—</b></div><div id="spotlightSpark" class="sparkline"></div></div>
+    <section class="control-wrap shell">
+      <div class="filters-row">
+        <div class="filter-scroll" id="rangeTabs"></div>
+        <div class="filter-scroll metric-tabs" id="metricTabs"></div>
+      </div>
+      <div class="search-panel" id="searchPanel">
+        <input id="searchInput" type="search" placeholder="搜尋創作者、關鍵字或內容…" />
+        <select id="regionFilter" aria-label="地區">
+          <option value="all">全球</option><option value="tw">台灣</option><option value="us">美國</option><option value="jp">日本</option><option value="kr">韓國</option>
+        </select>
+        <select id="topicFilter" aria-label="主題">
+          <option value="all">全部主題</option><option value="tech">科技 / AI</option><option value="life">生活</option><option value="finance">財經</option><option value="sports">運動</option><option value="ent">娛樂</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="content-grid shell" id="rankings">
+      <div class="main-column">
+        <div class="section-heading">
+          <div><span class="section-kicker">TOP POSTS</span><h2>熱門串文</h2><p id="rankingSubtitle">1 小時 · 爆紅排名 · 每小時更新</p></div>
+          <button class="ghost-btn" id="refreshBtn">重新整理 ↻</button>
+        </div>
+
+        <div class="top-three" id="topThree"></div>
+
+        <div class="list-heading"><h3>Top 20 排行榜</h3><span id="updatedLabel">剛剛更新</span></div>
+        <div class="ranking-list" id="rankingList"></div>
+        <div class="empty-state" id="emptyState" hidden>找不到符合條件的串文。</div>
+      </div>
+
+      <aside class="side-column" id="trends">
+        <article class="panel live-panel">
+          <div class="panel-title"><span><i class="status-dot"></i> Live Now</span><strong id="trackedCount">20</strong></div>
+          <p>正在追蹤的熱門串文</p>
+          <svg viewBox="0 0 360 130" class="line-chart" role="img" aria-label="熱門趨勢線圖">
+            <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25f5a0" stop-opacity=".35"/><stop offset="1" stop-color="#25f5a0" stop-opacity="0"/></linearGradient></defs>
+            <path class="gridline" d="M0 30H360M0 65H360M0 100H360"/>
+            <path class="area" d="M0 110 C30 95 50 62 75 80 S130 100 160 70 S210 28 235 55 S285 90 310 50 S340 20 360 32 L360 130H0Z"/>
+            <path class="line" d="M0 110 C30 95 50 62 75 80 S130 100 160 70 S210 28 235 55 S285 90 310 50 S340 20 360 32"/>
+          </svg>
         </article>
 
-        <aside class="overview-stack">
-          <div class="overview-card"><span>追蹤串文</span><strong id="trackedCount">—</strong><small>目前資料池</small><div class="micro-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
-          <div class="overview-card"><span>新進榜</span><strong id="newEntryCount">—</strong><small>最近一小時</small><div class="overview-badge">NEW</div></div>
-          <div class="overview-card wide"><span>目前最熱門分類</span><strong id="topTopic">科技 / AI</strong><small>依 Top 20 佔比</small><div class="topic-track"><b id="topicTrack"></b></div></div>
-        </aside>
-      </section>
-
-      <section class="ticker" aria-label="即時資訊">
-        <div class="ticker-label"><span></span>LIVE</div>
-        <div class="ticker-content" id="tickerContent">正在整理即時熱門串文…</div>
-      </section>
-
-      <section class="leaderboard" id="leaderboard">
-        <div class="board-head">
-          <div><span class="section-eyebrow">THREADRANK LEADERBOARD</span><h2>熱門排行榜</h2><p id="rankingSubtitle">依最近 1 小時熱門度排序</p></div>
-          <div class="demo-badge">DEMO DATA</div>
-        </div>
-
-        <div class="control-panel">
-          <div class="tabs-wrap"><span class="control-title">時間範圍</span><div class="segmented" id="rangeTabs"></div></div>
-          <div class="tabs-wrap"><span class="control-title">排行方式</span><div class="segmented metric-tabs" id="metricTabs"></div></div>
-          <div class="filters-row">
-            <label class="select-wrap"><span>地區</span><select id="regionFilter"><option value="all">🌐 全球</option><option value="tw">🇹🇼 台灣</option><option value="us">🇺🇸 美國</option><option value="jp">🇯🇵 日本</option><option value="kr">🇰🇷 韓國</option></select></label>
-            <label class="select-wrap"><span>主題</span><select id="topicFilter"><option value="all">全部主題</option><option value="tech">科技 / AI</option><option value="finance">財經</option><option value="sports">運動</option><option value="ent">娛樂</option><option value="life">生活</option></select></label>
-            <label class="search-wrap"><span>搜尋</span><div class="search-input"><i>⌕</i><input id="searchInput" placeholder="搜尋作者或內容…"></div></label>
+        <article class="panel kpi-panel">
+          <div class="panel-title"><span>關鍵數據</span><small>更新於現在</small></div>
+          <div class="kpi-grid">
+            <div><small>New Entries</small><b id="newEntryCount">0</b><span>↑ 18%</span></div>
+            <div><small>Avg Growth</small><b>+28.4%</b><span>↑ 6%</span></div>
+            <div><small>Trend Score</small><b id="spotlightScore">92.6</b><span>↑ 4%</span></div>
+            <div><small>Hot Topic</small><b id="topTopic">科技</b><span>熱門</span></div>
           </div>
-        </div>
+        </article>
 
-        <div class="table-head"><span>#</span><span>熱門串文</span><span>互動數據</span><span>趨勢</span></div>
-        <div id="rankingList" class="ranking-list"></div>
-        <div id="emptyState" class="empty-state" hidden>找不到符合條件的串文。</div>
-      </section>
-    </main>
+        <article class="panel" id="categories">
+          <div class="panel-title"><span>熱門分類</span><a href="#">查看全部 →</a></div>
+          <div class="category-grid">
+            <button class="active">台灣榜</button><button>全球榜</button><button>科技</button><button>娛樂</button><button>運動</button><button>財經</button>
+          </div>
+        </article>
+      </aside>
+    </section>
+  </main>
 
-    <footer><div><strong>ThreadRank</strong><span>See what's rising on Threads.</span></div><p>目前為產品原型，榜單使用 Demo 資料。</p></footer>
-  </div>
+  <nav class="mobile-bottom" aria-label="手機底部導覽">
+    <a class="active" href="#top"><span>⌂</span>首頁</a>
+    <a href="#rankings"><span>▥</span>排行榜</a>
+    <a href="#trends"><span>↗</span>趨勢</a>
+    <a href="#categories"><span>◉</span>我的</a>
+  </nav>
 
-  <template id="postTemplate">
-    <article class="post-card">
-      <div class="rank-block"><span class="rank"></span><span class="move">↗</span></div>
-      <div class="post-main">
-        <div class="post-head"><div class="author-row"><img class="avatar" alt=""><div><strong class="author"></strong><span class="handle"></span></div></div><div class="badges"></div></div>
-        <p class="post-text"></p>
-        <div class="post-foot"><span class="posted-at"></span><a class="open-link" target="_blank" rel="noopener noreferrer">在 Threads 查看 ↗</a></div>
-      </div>
-      <div class="stats-grid">
-        <div><span>瀏覽</span><strong class="views"></strong><small class="viewsDelta"></small></div>
-        <div><span>按讚</span><strong class="likes"></strong><small class="likesDelta"></small></div>
-        <div><span>留言</span><strong class="replies"></strong><small class="repliesDelta"></small></div>
-        <div><span>分享</span><strong class="shares"></strong><small class="sharesDelta"></small></div>
-      </div>
-      <div class="trend-box"><div class="trend-mini"></div><strong class="trendScore"></strong><span>Trend Score</span><small class="growth"></small></div>
+  <template id="postRowTemplate">
+    <article class="rank-row">
+      <div class="rank-number"></div>
+      <img class="avatar" alt="" />
+      <div class="rank-copy"><div class="rank-topline"><strong class="author"></strong><span class="handle"></span></div><p class="post-text"></p><small class="meta"></small></div>
+      <img class="thumb" alt="貼文縮圖" />
+      <div class="row-score"><small>熱度分數</small><b class="trendScore"></b></div>
     </article>
   </template>
 
