@@ -1,0 +1,6 @@
+{
+  "name": "threads-trend-radar-v1",
+  "private": true,
+  "type": "module",
+  "scripts": { "refresh": "node scripts/fetch-threads.mjs" }
+}

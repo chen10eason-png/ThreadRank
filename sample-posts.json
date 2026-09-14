@@ -1,0 +1,5078 @@
+[
+  {
+    "id": "demo-1",
+    "author": "科技觀察站",
+    "handle": "@trenduser1",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=科技觀察站0",
+    "text": "今天看到一個很有意思的新功能，實際測完後比我原本預期還實用。",
+    "postedAt": "12 小時前",
+    "region": "kr",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 265123,
+        "likes": 14874,
+        "replies": 1032,
+        "shares": 841,
+        "trend": 207.4687686865461,
+        "growth": 2.2972221085818263,
+        "deltas": {
+          "views": 16421,
+          "likes": 484,
+          "replies": 29,
+          "shares": 39
+        }
+      },
+      "1d": {
+        "views": 1590738,
+        "likes": 89245,
+        "replies": 6197,
+        "shares": 5047,
+        "trend": 243.8507686865461,
+        "growth": 13.783332651490957,
+        "deltas": {
+          "views": 39653,
+          "likes": 1342,
+          "replies": 124,
+          "shares": 82
+        }
+      },
+      "1w": {
+        "views": 3976846,
+        "likes": 223114,
+        "replies": 15493,
+        "shares": 12619,
+        "trend": 378.8297686865461,
+        "growth": 34.45833162872739,
+        "deltas": {
+          "views": 107082,
+          "likes": 6448,
+          "replies": 279,
+          "shares": 378
+        }
+      },
+      "1m": {
+        "views": 6186205,
+        "likes": 347067,
+        "replies": 24101,
+        "shares": 19630,
+        "trend": 374.5037686865461,
+        "growth": 53.60184920024261,
+        "deltas": {
+          "views": 69556,
+          "likes": 9111,
+          "replies": 662,
+          "shares": 255
+        }
+      },
+      "6m": {
+        "views": 7600194,
+        "likes": 426396,
+        "replies": 29610,
+        "shares": 24117,
+        "trend": 496.8387686865461,
+        "growth": 65.85370044601235,
+        "deltas": {
+          "views": 183251,
+          "likes": 9030,
+          "replies": 861,
+          "shares": 342
+        }
+      },
+      "1y": {
+        "views": 8307189,
+        "likes": 466061,
+        "replies": 32365,
+        "shares": 26361,
+        "trend": 524.5707686865462,
+        "growth": 71.97962606889722,
+        "deltas": {
+          "views": 172783,
+          "likes": 12886,
+          "replies": 737,
+          "shares": 426
+        }
+      },
+      "5y": {
+        "views": 8837436,
+        "likes": 495810,
+        "replies": 34431,
+        "shares": 28044,
+        "trend": 483.0507686865461,
+        "growth": 76.57407028606087,
+        "deltas": {
+          "views": 102843,
+          "likes": 14277,
+          "replies": 670,
+          "shares": 839
+        }
+      },
+      "10y": {
+        "views": 8837436,
+        "likes": 495810,
+        "replies": 34431,
+        "shares": 28044,
+        "trend": 486.2607686865461,
+        "growth": 76.57407028606087,
+        "deltas": {
+          "views": 113403,
+          "likes": 13012,
+          "replies": 904,
+          "shares": 796
+        }
+      },
+      "all": {
+        "views": 8837436,
+        "likes": 495810,
+        "replies": 34431,
+        "shares": 28044,
+        "trend": 401.2337686865461,
+        "growth": 76.57407028606087,
+        "deltas": {
+          "views": 91526,
+          "likes": 8648,
+          "replies": 379,
+          "shares": 702
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-2",
+    "author": "市場筆記",
+    "handle": "@trenduser2",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=市場筆記1",
+    "text": "這件事情真正值得注意的，不是表面的數字，而是背後成長速度突然加快。",
+    "postedAt": "13 小時前",
+    "region": "tw",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 27714,
+        "likes": 2945,
+        "replies": 231,
+        "shares": 286,
+        "trend": 860.5298997338712,
+        "growth": 10.697598746673389,
+        "deltas": {
+          "views": 1562,
+          "likes": 228,
+          "replies": 12,
+          "shares": 13
+        }
+      },
+      "1d": {
+        "views": 166287,
+        "likes": 17672,
+        "replies": 1391,
+        "shares": 1721,
+        "trend": 864.9488997338711,
+        "growth": 64.18559248004034,
+        "deltas": {
+          "views": 2551,
+          "likes": 454,
+          "replies": 19,
+          "shares": 37
+        }
+      },
+      "1w": {
+        "views": 415719,
+        "likes": 44180,
+        "replies": 3478,
+        "shares": 4304,
+        "trend": 879.1338997338712,
+        "growth": 160.46398120010085,
+        "deltas": {
+          "views": 8776,
+          "likes": 930,
+          "replies": 43,
+          "shares": 99
+        }
+      },
+      "1m": {
+        "views": 646674,
+        "likes": 68724,
+        "replies": 5410,
+        "shares": 6696,
+        "trend": 895.5978997338711,
+        "growth": 249.61063742237909,
+        "deltas": {
+          "views": 18320,
+          "likes": 1125,
+          "replies": 90,
+          "shares": 188
+        }
+      },
+      "6m": {
+        "views": 794486,
+        "likes": 84433,
+        "replies": 6646,
+        "shares": 8226,
+        "trend": 896.2318997338712,
+        "growth": 306.6644974046372,
+        "deltas": {
+          "views": 17134,
+          "likes": 1304,
+          "replies": 67,
+          "shares": 206
+        }
+      },
+      "1y": {
+        "views": 868391,
+        "likes": 92287,
+        "replies": 7265,
+        "shares": 8992,
+        "trend": 899.8648997338712,
+        "growth": 335.1914273957662,
+        "deltas": {
+          "views": 14727,
+          "likes": 1785,
+          "replies": 112,
+          "shares": 203
+        }
+      },
+      "5y": {
+        "views": 923821,
+        "likes": 98178,
+        "replies": 7729,
+        "shares": 9566,
+        "trend": 908.4148997338712,
+        "growth": 356.586624889113,
+        "deltas": {
+          "views": 22707,
+          "likes": 1590,
+          "replies": 88,
+          "shares": 284
+        }
+      },
+      "10y": {
+        "views": 923821,
+        "likes": 98178,
+        "replies": 7729,
+        "shares": 9566,
+        "trend": 906.0398997338712,
+        "growth": 356.586624889113,
+        "deltas": {
+          "views": 26052,
+          "likes": 1022,
+          "replies": 164,
+          "shares": 226
+        }
+      },
+      "all": {
+        "views": 923821,
+        "likes": 98178,
+        "replies": 7729,
+        "shares": 9566,
+        "trend": 911.7418997338712,
+        "growth": 356.586624889113,
+        "deltas": {
+          "views": 16684,
+          "likes": 2418,
+          "replies": 225,
+          "shares": 208
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-3",
+    "author": "球場速報",
+    "handle": "@trenduser3",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=球場速報2",
+    "text": "剛整理完這週最重要的幾個變化，第一名真的完全沒想到。",
+    "postedAt": "14 小時前",
+    "region": "tw",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 94651,
+        "likes": 3407,
+        "replies": 213,
+        "shares": 119,
+        "trend": 130.88538726080094,
+        "growth": 1.5181423407600116,
+        "deltas": {
+          "views": 6774,
+          "likes": 188,
+          "replies": 14,
+          "shares": 9
+        }
+      },
+      "1d": {
+        "views": 567906,
+        "likes": 20444,
+        "replies": 1281,
+        "shares": 717,
+        "trend": 139.97938726080093,
+        "growth": 9.10885404456007,
+        "deltas": {
+          "views": 14888,
+          "likes": 224,
+          "replies": 36,
+          "shares": 8
+        }
+      },
+      "1w": {
+        "views": 1419766,
+        "likes": 51111,
+        "replies": 3203,
+        "shares": 1792,
+        "trend": 174.72038726080092,
+        "growth": 22.772135111400175,
+        "deltas": {
+          "views": 36089,
+          "likes": 1368,
+          "replies": 74,
+          "shares": 32
+        }
+      },
+      "1m": {
+        "views": 2208525,
+        "likes": 79506,
+        "replies": 4983,
+        "shares": 2788,
+        "trend": 161.17938726080092,
+        "growth": 35.42332128440027,
+        "deltas": {
+          "views": 25398,
+          "likes": 930,
+          "replies": 113,
+          "shares": 41
+        }
+      },
+      "6m": {
+        "views": 2713331,
+        "likes": 97678,
+        "replies": 6122,
+        "shares": 3426,
+        "trend": 196.99938726080092,
+        "growth": 43.520080435120335,
+        "deltas": {
+          "views": 56018,
+          "likes": 1494,
+          "replies": 81,
+          "shares": 54
+        }
+      },
+      "1y": {
+        "views": 2965734,
+        "likes": 106765,
+        "replies": 6691,
+        "shares": 3744,
+        "trend": 221.66338726080093,
+        "growth": 47.568460010480365,
+        "deltas": {
+          "views": 72652,
+          "likes": 2107,
+          "replies": 119,
+          "shares": 73
+        }
+      },
+      "5y": {
+        "views": 3155037,
+        "likes": 113580,
+        "replies": 7119,
+        "shares": 3984,
+        "trend": 219.68838726080094,
+        "growth": 50.60474469200039,
+        "deltas": {
+          "views": 66507,
+          "likes": 2307,
+          "replies": 134,
+          "shares": 116
+        }
+      },
+      "10y": {
+        "views": 3155037,
+        "likes": 113580,
+        "replies": 7119,
+        "shares": 3984,
+        "trend": 222.63638726080092,
+        "growth": 50.60474469200039,
+        "deltas": {
+          "views": 78985,
+          "likes": 1656,
+          "replies": 116,
+          "shares": 54
+        }
+      },
+      "all": {
+        "views": 3155037,
+        "likes": 113580,
+        "replies": 7119,
+        "shares": 3984,
+        "trend": 196.68538726080095,
+        "growth": 50.60474469200039,
+        "deltas": {
+          "views": 54524,
+          "likes": 1200,
+          "replies": 177,
+          "shares": 85
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-4",
+    "author": "娛樂雷達",
+    "handle": "@trenduser4",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=娛樂雷達3",
+    "text": "如果你也在追這個主題，這張圖大概可以省下你半小時查資料的時間。",
+    "postedAt": "1 小時前",
+    "region": "jp",
+    "topic": "finance",
+    "topicLabel": "財經",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 29421,
+        "likes": 2947,
+        "replies": 214,
+        "shares": 229,
+        "trend": 920.1084943511406,
+        "growth": 11.448656179389257,
+        "deltas": {
+          "views": 1746,
+          "likes": 136,
+          "replies": 17,
+          "shares": 15
+        }
+      },
+      "1d": {
+        "views": 176528,
+        "likes": 17687,
+        "replies": 1286,
+        "shares": 1377,
+        "trend": 923.7084943511406,
+        "growth": 68.69193707633555,
+        "deltas": {
+          "views": 2836,
+          "likes": 302,
+          "replies": 28,
+          "shares": 28
+        }
+      },
+      "1w": {
+        "views": 441321,
+        "likes": 44218,
+        "replies": 3216,
+        "shares": 3442,
+        "trend": 936.3944943511406,
+        "growth": 171.72984269083886,
+        "deltas": {
+          "views": 9032,
+          "likes": 612,
+          "replies": 69,
+          "shares": 82
+        }
+      },
+      "1m": {
+        "views": 686500,
+        "likes": 68784,
+        "replies": 5002,
+        "shares": 5355,
+        "trend": 953.4204943511406,
+        "growth": 267.135310852416,
+        "deltas": {
+          "views": 17368,
+          "likes": 1306,
+          "replies": 94,
+          "shares": 107
+        }
+      },
+      "6m": {
+        "views": 843414,
+        "likes": 84506,
+        "replies": 6146,
+        "shares": 6579,
+        "trend": 955.7014943511406,
+        "growth": 328.19481047582536,
+        "deltas": {
+          "views": 17479,
+          "likes": 1647,
+          "replies": 62,
+          "shares": 100
+        }
+      },
+      "1y": {
+        "views": 921872,
+        "likes": 92367,
+        "replies": 6718,
+        "shares": 7191,
+        "trend": 978.8934943511406,
+        "growth": 358.72456028753004,
+        "deltas": {
+          "views": 27431,
+          "likes": 2450,
+          "replies": 129,
+          "shares": 180
+        }
+      },
+      "5y": {
+        "views": 980715,
+        "likes": 98263,
+        "replies": 7147,
+        "shares": 7650,
+        "trend": 956.5824943511407,
+        "growth": 381.6218726463086,
+        "deltas": {
+          "views": 13950,
+          "likes": 1507,
+          "replies": 145,
+          "shares": 183
+        }
+      },
+      "10y": {
+        "views": 980715,
+        "likes": 98263,
+        "replies": 7147,
+        "shares": 7650,
+        "trend": 958.1294943511406,
+        "growth": 381.6218726463086,
+        "deltas": {
+          "views": 10347,
+          "likes": 1909,
+          "replies": 200,
+          "shares": 170
+        }
+      },
+      "all": {
+        "views": 980715,
+        "likes": 98263,
+        "replies": 7147,
+        "shares": 7650,
+        "trend": 971.1274943511406,
+        "growth": 381.6218726463086,
+        "deltas": {
+          "views": 29285,
+          "likes": 1176,
+          "replies": 201,
+          "shares": 204
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-5",
+    "author": "生活研究所",
+    "handle": "@trenduser5",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=生活研究所4",
+    "text": "現場氣氛比影片看起來還誇張，最後幾分鐘全場直接站起來。",
+    "postedAt": "14 小時前",
+    "region": "us",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 231590,
+        "likes": 15601,
+        "replies": 2007,
+        "shares": 658,
+        "trend": 664.356499523857,
+        "growth": 8.049543744048213,
+        "deltas": {
+          "views": 11463,
+          "likes": 464,
+          "replies": 111,
+          "shares": 24
+        }
+      },
+      "1d": {
+        "views": 1389544,
+        "likes": 93607,
+        "replies": 12047,
+        "shares": 3950,
+        "trend": 696.629499523857,
+        "growth": 48.297262464289275,
+        "deltas": {
+          "views": 28866,
+          "likes": 1440,
+          "replies": 204,
+          "shares": 82
+        }
+      },
+      "1w": {
+        "views": 3473860,
+        "likes": 234019,
+        "replies": 30119,
+        "shares": 9876,
+        "trend": 825.044499523857,
+        "growth": 120.7431561607232,
+        "deltas": {
+          "views": 91681,
+          "likes": 6905,
+          "replies": 545,
+          "shares": 100
+        }
+      },
+      "1m": {
+        "views": 5403783,
+        "likes": 364030,
+        "replies": 46852,
+        "shares": 15363,
+        "trend": 891.834499523857,
+        "growth": 187.82268736112496,
+        "deltas": {
+          "views": 135111,
+          "likes": 6110,
+          "replies": 1178,
+          "shares": 408
+        }
+      },
+      "6m": {
+        "views": 6638933,
+        "likes": 447236,
+        "replies": 57561,
+        "shares": 18875,
+        "trend": 864.3834995238569,
+        "growth": 230.7535873293821,
+        "deltas": {
+          "views": 70840,
+          "likes": 11009,
+          "replies": 903,
+          "shares": 310
+        }
+      },
+      "1y": {
+        "views": 7256508,
+        "likes": 488840,
+        "replies": 62916,
+        "shares": 20631,
+        "trend": 911.007499523857,
+        "growth": 252.21903731351065,
+        "deltas": {
+          "views": 121074,
+          "likes": 10152,
+          "replies": 935,
+          "shares": 410
+        }
+      },
+      "5y": {
+        "views": 7719690,
+        "likes": 520043,
+        "replies": 66932,
+        "shares": 21948,
+        "trend": 880.6714995238569,
+        "growth": 268.3181248016071,
+        "deltas": {
+          "views": 120938,
+          "likes": 6496,
+          "replies": 1003,
+          "shares": 518
+        }
+      },
+      "10y": {
+        "views": 7719690,
+        "likes": 520043,
+        "replies": 66932,
+        "shares": 21948,
+        "trend": 889.191499523857,
+        "growth": 268.3181248016071,
+        "deltas": {
+          "views": 125138,
+          "likes": 7283,
+          "replies": 1158,
+          "shares": 313
+        }
+      },
+      "all": {
+        "views": 7719690,
+        "likes": 520043,
+        "replies": 66932,
+        "shares": 21948,
+        "trend": 1047.118499523857,
+        "growth": 268.3181248016071,
+        "deltas": {
+          "views": 229195,
+          "likes": 13388,
+          "replies": 872,
+          "shares": 348
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-6",
+    "author": "Data Lab",
+    "handle": "@trenduser6",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Data Lab5",
+    "text": "很多人問我怎麼看，我把目前能確認的資料與我的觀察整理在這裡。",
+    "postedAt": "11 小時前",
+    "region": "tw",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 222614,
+        "likes": 14822,
+        "replies": 1193,
+        "shares": 1072,
+        "trend": 772.6009449936995,
+        "growth": 9.392761812421245,
+        "deltas": {
+          "views": 7630,
+          "likes": 858,
+          "replies": 91,
+          "shares": 56
+        }
+      },
+      "1d": {
+        "views": 1335685,
+        "likes": 88933,
+        "replies": 7158,
+        "shares": 6432,
+        "trend": 811.0329449936995,
+        "growth": 56.35657087452747,
+        "deltas": {
+          "views": 36682,
+          "likes": 1390,
+          "replies": 205,
+          "shares": 72
+        }
+      },
+      "1w": {
+        "views": 3339214,
+        "likes": 222334,
+        "replies": 17896,
+        "shares": 16081,
+        "trend": 879.3339449936996,
+        "growth": 140.89142718631868,
+        "deltas": {
+          "views": 49163,
+          "likes": 6235,
+          "replies": 232,
+          "shares": 236
+        }
+      },
+      "1m": {
+        "views": 5194333,
+        "likes": 345853,
+        "replies": 27839,
+        "shares": 25015,
+        "trend": 967.9779449936996,
+        "growth": 219.16444228982903,
+        "deltas": {
+          "views": 108797,
+          "likes": 7197,
+          "replies": 525,
+          "shares": 501
+        }
+      },
+      "6m": {
+        "views": 6381610,
+        "likes": 424905,
+        "replies": 34203,
+        "shares": 30733,
+        "trend": 998.9579449936996,
+        "growth": 269.2591719560757,
+        "deltas": {
+          "views": 80217,
+          "likes": 12225,
+          "replies": 681,
+          "shares": 616
+        }
+      },
+      "1y": {
+        "views": 6975248,
+        "likes": 464431,
+        "replies": 37384,
+        "shares": 33592,
+        "trend": 1012.7929449936996,
+        "growth": 294.306536789199,
+        "deltas": {
+          "views": 121712,
+          "likes": 10546,
+          "replies": 624,
+          "shares": 387
+        }
+      },
+      "5y": {
+        "views": 7420477,
+        "likes": 494076,
+        "replies": 39771,
+        "shares": 35737,
+        "trend": 972.8039449936996,
+        "growth": 313.0920604140415,
+        "deltas": {
+          "views": 87053,
+          "likes": 10032,
+          "replies": 591,
+          "shares": 407
+        }
+      },
+      "10y": {
+        "views": 7420477,
+        "likes": 494076,
+        "replies": 39771,
+        "shares": 35737,
+        "trend": 1008.6149449936995,
+        "growth": 313.0920604140415,
+        "deltas": {
+          "views": 118234,
+          "likes": 7791,
+          "replies": 1119,
+          "shares": 687
+        }
+      },
+      "all": {
+        "views": 7420477,
+        "likes": 494076,
+        "replies": 39771,
+        "shares": 35737,
+        "trend": 955.3589449936995,
+        "growth": 313.0920604140415,
+        "deltas": {
+          "views": 96248,
+          "likes": 6418,
+          "replies": 609,
+          "shares": 631
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-7",
+    "author": "Daily Scope",
+    "handle": "@trenduser7",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Daily Scope6",
+    "text": "這個更新今天正式出現，介面看起來小改，但其實會改變使用習慣。",
+    "postedAt": "15 小時前",
+    "region": "kr",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": true,
+    "ranges": {
+      "1h": {
+        "views": 261102,
+        "likes": 19888,
+        "replies": 1724,
+        "shares": 2284,
+        "trend": 774.4453580096275,
+        "growth": 9.329391975120343,
+        "deltas": {
+          "views": 10264,
+          "likes": 756,
+          "replies": 125,
+          "shares": 163
+        }
+      },
+      "1d": {
+        "views": 1566612,
+        "likes": 119329,
+        "replies": 10346,
+        "shares": 13708,
+        "trend": 807.5133580096275,
+        "growth": 55.97635185072206,
+        "deltas": {
+          "views": 29332,
+          "likes": 1838,
+          "replies": 119,
+          "shares": 247
+        }
+      },
+      "1w": {
+        "views": 3916530,
+        "likes": 298323,
+        "replies": 25867,
+        "shares": 34271,
+        "trend": 925.9773580096274,
+        "growth": 139.94087962680516,
+        "deltas": {
+          "views": 110366,
+          "likes": 4196,
+          "replies": 422,
+          "shares": 366
+        }
+      },
+      "1m": {
+        "views": 6092381,
+        "likes": 464058,
+        "replies": 40238,
+        "shares": 53311,
+        "trend": 999.2023580096275,
+        "growth": 217.685812752808,
+        "deltas": {
+          "views": 130241,
+          "likes": 5198,
+          "replies": 945,
+          "shares": 1057
+        }
+      },
+      "6m": {
+        "views": 7484925,
+        "likes": 570129,
+        "replies": 49435,
+        "shares": 65496,
+        "trend": 1067.8773580096274,
+        "growth": 267.44256995344983,
+        "deltas": {
+          "views": 138196,
+          "likes": 8658,
+          "replies": 793,
+          "shares": 1824
+        }
+      },
+      "1y": {
+        "views": 8181197,
+        "likes": 623164,
+        "replies": 54034,
+        "shares": 71589,
+        "trend": 1201.7423580096274,
+        "growth": 292.32094855377073,
+        "deltas": {
+          "views": 235741,
+          "likes": 15603,
+          "replies": 770,
+          "shares": 1013
+        }
+      },
+      "5y": {
+        "views": 8703402,
+        "likes": 662941,
+        "replies": 57483,
+        "shares": 76159,
+        "trend": 1173.1303580096276,
+        "growth": 310.97973250401145,
+        "deltas": {
+          "views": 150179,
+          "likes": 18242,
+          "replies": 1658,
+          "shares": 1111
+        }
+      },
+      "10y": {
+        "views": 8703402,
+        "likes": 662941,
+        "replies": 57483,
+        "shares": 76159,
+        "trend": 1135.7023580096275,
+        "growth": 310.97973250401145,
+        "deltas": {
+          "views": 197291,
+          "likes": 11664,
+          "replies": 1098,
+          "shares": 1062
+        }
+      },
+      "all": {
+        "views": 8703402,
+        "likes": 662941,
+        "replies": 57483,
+        "shares": 76159,
+        "trend": 1238.5483580096275,
+        "growth": 310.97973250401145,
+        "deltas": {
+          "views": 212637,
+          "likes": 16998,
+          "replies": 1654,
+          "shares": 1499
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-8",
+    "author": "Now Trending",
+    "handle": "@trenduser8",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Now Trending7",
+    "text": "原本只是隨手測試，沒想到一小時內的互動成長比平常高很多。",
+    "postedAt": "20 小時前",
+    "region": "us",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 46619,
+        "likes": 1402,
+        "replies": 202,
+        "shares": 135,
+        "trend": 239.23711386920402,
+        "growth": 2.9402014233650506,
+        "deltas": {
+          "views": 2451,
+          "likes": 101,
+          "replies": 12,
+          "shares": 5
+        }
+      },
+      "1d": {
+        "views": 279718,
+        "likes": 8413,
+        "replies": 1213,
+        "shares": 814,
+        "trend": 247.33411386920403,
+        "growth": 17.641208540190302,
+        "deltas": {
+          "views": 8118,
+          "likes": 240,
+          "replies": 32,
+          "shares": 16
+        }
+      },
+      "1w": {
+        "views": 699297,
+        "likes": 21033,
+        "replies": 3033,
+        "shares": 2035,
+        "trend": 256.86711386920405,
+        "growth": 44.10302135047576,
+        "deltas": {
+          "views": 13611,
+          "likes": 381,
+          "replies": 89,
+          "shares": 39
+        }
+      },
+      "1m": {
+        "views": 1087795,
+        "likes": 32719,
+        "replies": 4718,
+        "shares": 3166,
+        "trend": 275.378113869204,
+        "growth": 68.60469987851785,
+        "deltas": {
+          "views": 31752,
+          "likes": 447,
+          "replies": 50,
+          "shares": 61
+        }
+      },
+      "6m": {
+        "views": 1336434,
+        "likes": 40198,
+        "replies": 5796,
+        "shares": 3890,
+        "trend": 263.753113869204,
+        "growth": 84.28577413646478,
+        "deltas": {
+          "views": 18677,
+          "likes": 608,
+          "replies": 62,
+          "shares": 48
+        }
+      },
+      "1y": {
+        "views": 1460754,
+        "likes": 43937,
+        "replies": 6335,
+        "shares": 4252,
+        "trend": 274.630113869204,
+        "growth": 92.12631126543825,
+        "deltas": {
+          "views": 27494,
+          "likes": 516,
+          "replies": 100,
+          "shares": 94
+        }
+      },
+      "5y": {
+        "views": 1553994,
+        "likes": 46742,
+        "replies": 6740,
+        "shares": 4524,
+        "trend": 272.71511386920406,
+        "growth": 98.00671411216835,
+        "deltas": {
+          "views": 23619,
+          "likes": 758,
+          "replies": 118,
+          "shares": 69
+        }
+      },
+      "10y": {
+        "views": 1553994,
+        "likes": 46742,
+        "replies": 6740,
+        "shares": 4524,
+        "trend": 286.04511386920404,
+        "growth": 98.00671411216835,
+        "deltas": {
+          "views": 33049,
+          "likes": 1193,
+          "replies": 71,
+          "shares": 93
+        }
+      },
+      "all": {
+        "views": 1553994,
+        "likes": 46742,
+        "replies": 6740,
+        "shares": 4524,
+        "trend": 288.28511386920405,
+        "growth": 98.00671411216835,
+        "deltas": {
+          "views": 32159,
+          "likes": 1325,
+          "replies": 162,
+          "shares": 70
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-9",
+    "author": "科技觀察站",
+    "handle": "@trenduser9",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=科技觀察站8",
+    "text": "如果只看總數很容易看錯，真正有趣的是最近一小時突然開始加速。",
+    "postedAt": "18 小時前",
+    "region": "tw",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 179316,
+        "likes": 18086,
+        "replies": 2779,
+        "shares": 1749,
+        "trend": 145.314355386653,
+        "growth": 1.4838169423331626,
+        "deltas": {
+          "views": 9359,
+          "likes": 799,
+          "replies": 186,
+          "shares": 92
+        }
+      },
+      "1d": {
+        "views": 1075901,
+        "likes": 108516,
+        "replies": 16677,
+        "shares": 10499,
+        "trend": 179.740355386653,
+        "growth": 8.902901653998976,
+        "deltas": {
+          "views": 31815,
+          "likes": 1102,
+          "replies": 436,
+          "shares": 128
+        }
+      },
+      "1w": {
+        "views": 2689752,
+        "likes": 271291,
+        "replies": 41692,
+        "shares": 26247,
+        "trend": 254.069355386653,
+        "growth": 22.257254134997442,
+        "deltas": {
+          "views": 54794,
+          "likes": 3520,
+          "replies": 735,
+          "shares": 583
+        }
+      },
+      "1m": {
+        "views": 4184059,
+        "likes": 422009,
+        "replies": 64855,
+        "shares": 40829,
+        "trend": 340.989355386653,
+        "growth": 34.62239532110713,
+        "deltas": {
+          "views": 122074,
+          "likes": 4565,
+          "replies": 1156,
+          "shares": 497
+        }
+      },
+      "6m": {
+        "views": 5140416,
+        "likes": 518469,
+        "replies": 79679,
+        "shares": 50162,
+        "trend": 399.044355386653,
+        "growth": 42.536085680217326,
+        "deltas": {
+          "views": 127789,
+          "likes": 6673,
+          "replies": 1110,
+          "shares": 1313
+        }
+      },
+      "1y": {
+        "views": 5618594,
+        "likes": 566698,
+        "replies": 87091,
+        "shares": 54828,
+        "trend": 442.931355386653,
+        "growth": 46.49293085977243,
+        "deltas": {
+          "views": 61476,
+          "likes": 15701,
+          "replies": 1338,
+          "shares": 1640
+        }
+      },
+      "5y": {
+        "views": 5977228,
+        "likes": 602871,
+        "replies": 92651,
+        "shares": 58328,
+        "trend": 355.013355386653,
+        "growth": 49.460564744438756,
+        "deltas": {
+          "views": 72468,
+          "likes": 7188,
+          "replies": 1808,
+          "shares": 943
+        }
+      },
+      "10y": {
+        "views": 5977228,
+        "likes": 602871,
+        "replies": 92651,
+        "shares": 58328,
+        "trend": 422.51235538665304,
+        "growth": 49.460564744438756,
+        "deltas": {
+          "views": 136767,
+          "likes": 9679,
+          "replies": 1539,
+          "shares": 602
+        }
+      },
+      "all": {
+        "views": 5977228,
+        "likes": 602871,
+        "replies": 92651,
+        "shares": 58328,
+        "trend": 367.34935538665303,
+        "growth": 49.460564744438756,
+        "deltas": {
+          "views": 70354,
+          "likes": 6066,
+          "replies": 1781,
+          "shares": 1605
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-10",
+    "author": "市場筆記",
+    "handle": "@trenduser10",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=市場筆記9",
+    "text": "今天最值得收藏的一篇：把複雜的事情一次整理到看得懂。",
+    "postedAt": "17 小時前",
+    "region": "jp",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 165159,
+        "likes": 14154,
+        "replies": 2129,
+        "shares": 364,
+        "trend": 509.6352446456077,
+        "growth": 6.085328058070096,
+        "deltas": {
+          "views": 7019,
+          "likes": 1078,
+          "replies": 139,
+          "shares": 21
+        }
+      },
+      "1d": {
+        "views": 990958,
+        "likes": 84928,
+        "replies": 12775,
+        "shares": 2184,
+        "trend": 537.1162446456077,
+        "growth": 36.511968348420574,
+        "deltas": {
+          "views": 23110,
+          "likes": 2143,
+          "replies": 145,
+          "shares": 35
+        }
+      },
+      "1w": {
+        "views": 2477396,
+        "likes": 212321,
+        "replies": 31938,
+        "shares": 5460,
+        "trend": 573.3122446456077,
+        "growth": 91.27992087105144,
+        "deltas": {
+          "views": 26706,
+          "likes": 2777,
+          "replies": 911,
+          "shares": 117
+        }
+      },
+      "1m": {
+        "views": 3853727,
+        "likes": 330278,
+        "replies": 49681,
+        "shares": 8493,
+        "trend": 624.6652446456077,
+        "growth": 141.99098802163556,
+        "deltas": {
+          "views": 53979,
+          "likes": 5251,
+          "replies": 913,
+          "shares": 99
+        }
+      },
+      "6m": {
+        "views": 4734579,
+        "likes": 405770,
+        "replies": 61037,
+        "shares": 10435,
+        "trend": 711.6412446456077,
+        "growth": 174.44607099800942,
+        "deltas": {
+          "views": 124505,
+          "likes": 7150,
+          "replies": 679,
+          "shares": 211
+        }
+      },
+      "1y": {
+        "views": 5175005,
+        "likes": 443516,
+        "replies": 66715,
+        "shares": 11405,
+        "trend": 730.6902446456077,
+        "growth": 190.67361248619633,
+        "deltas": {
+          "views": 94574,
+          "likes": 11203,
+          "replies": 1018,
+          "shares": 168
+        }
+      },
+      "5y": {
+        "views": 5505325,
+        "likes": 471826,
+        "replies": 70974,
+        "shares": 12134,
+        "trend": 721.2402446456076,
+        "growth": 202.84426860233654,
+        "deltas": {
+          "views": 110284,
+          "likes": 8538,
+          "replies": 893,
+          "shares": 299
+        }
+      },
+      "10y": {
+        "views": 5505325,
+        "likes": 471826,
+        "replies": 70974,
+        "shares": 12134,
+        "trend": 821.5262446456077,
+        "growth": 202.84426860233654,
+        "deltas": {
+          "views": 150410,
+          "likes": 12560,
+          "replies": 1643,
+          "shares": 235
+        }
+      },
+      "all": {
+        "views": 5505325,
+        "likes": 471826,
+        "replies": 70974,
+        "shares": 12134,
+        "trend": 728.3382446456077,
+        "growth": 202.84426860233654,
+        "deltas": {
+          "views": 142082,
+          "likes": 6709,
+          "replies": 850,
+          "shares": 171
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-11",
+    "author": "球場速報",
+    "handle": "@trenduser11",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=球場速報10",
+    "text": "今天看到一個很有意思的新功能，實際測完後比我原本預期還實用。",
+    "postedAt": "7 小時前",
+    "region": "tw",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 237873,
+        "likes": 8837,
+        "replies": 765,
+        "shares": 894,
+        "trend": 630.6065277608059,
+        "growth": 7.665631597010073,
+        "deltas": {
+          "views": 9506,
+          "likes": 357,
+          "replies": 56,
+          "shares": 65
+        }
+      },
+      "1d": {
+        "views": 1427243,
+        "likes": 53026,
+        "replies": 4594,
+        "shares": 5369,
+        "trend": 655.4285277608059,
+        "growth": 45.99378958206044,
+        "deltas": {
+          "views": 24598,
+          "likes": 984,
+          "replies": 110,
+          "shares": 111
+        }
+      },
+      "1w": {
+        "views": 3568109,
+        "likes": 132565,
+        "replies": 11485,
+        "shares": 13422,
+        "trend": 734.4495277608058,
+        "growth": 114.9844739551511,
+        "deltas": {
+          "views": 72889,
+          "likes": 3355,
+          "replies": 120,
+          "shares": 279
+        }
+      },
+      "1m": {
+        "views": 5550392,
+        "likes": 206212,
+        "replies": 17866,
+        "shares": 20879,
+        "trend": 832.4275277608059,
+        "growth": 178.86473726356837,
+        "deltas": {
+          "views": 139477,
+          "likes": 4951,
+          "replies": 293,
+          "shares": 535
+        }
+      },
+      "6m": {
+        "views": 6819053,
+        "likes": 253346,
+        "replies": 21950,
+        "shares": 25652,
+        "trend": 911.2835277608059,
+        "growth": 219.74810578095543,
+        "deltas": {
+          "views": 188893,
+          "likes": 7514,
+          "replies": 376,
+          "shares": 568
+        }
+      },
+      "1y": {
+        "views": 7453384,
+        "likes": 276913,
+        "replies": 23992,
+        "shares": 28038,
+        "trend": 808.0825277608059,
+        "growth": 240.18979003964895,
+        "deltas": {
+          "views": 121792,
+          "likes": 4091,
+          "replies": 367,
+          "shares": 528
+        }
+      },
+      "5y": {
+        "views": 7929132,
+        "likes": 294589,
+        "replies": 25524,
+        "shares": 29828,
+        "trend": 844.5085277608059,
+        "growth": 255.5210532336691,
+        "deltas": {
+          "views": 150098,
+          "likes": 3701,
+          "replies": 713,
+          "shares": 569
+        }
+      },
+      "10y": {
+        "views": 7929132,
+        "likes": 294589,
+        "replies": 25524,
+        "shares": 29828,
+        "trend": 822.2125277608059,
+        "growth": 255.5210532336691,
+        "deltas": {
+          "views": 103562,
+          "likes": 5566,
+          "replies": 554,
+          "shares": 828
+        }
+      },
+      "all": {
+        "views": 7929132,
+        "likes": 294589,
+        "replies": 25524,
+        "shares": 29828,
+        "trend": 804.2195277608059,
+        "growth": 255.5210532336691,
+        "deltas": {
+          "views": 106749,
+          "likes": 5158,
+          "replies": 612,
+          "shares": 357
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-12",
+    "author": "娛樂雷達",
+    "handle": "@trenduser12",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=娛樂雷達11",
+    "text": "這件事情真正值得注意的，不是表面的數字，而是背後成長速度突然加快。",
+    "postedAt": "14 小時前",
+    "region": "tw",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 104382,
+        "likes": 3230,
+        "replies": 104,
+        "shares": 368,
+        "trend": 474.6678245172736,
+        "growth": 5.850435306465919,
+        "deltas": {
+          "views": 4013,
+          "likes": 158,
+          "replies": 4,
+          "shares": 23
+        }
+      },
+      "1d": {
+        "views": 626294,
+        "likes": 19380,
+        "replies": 626,
+        "shares": 2208,
+        "trend": 490.8258245172736,
+        "growth": 35.10261183879552,
+        "deltas": {
+          "views": 17481,
+          "likes": 375,
+          "replies": 8,
+          "shares": 33
+        }
+      },
+      "1w": {
+        "views": 1565735,
+        "likes": 48451,
+        "replies": 1567,
+        "shares": 5520,
+        "trend": 503.0178245172736,
+        "growth": 87.7565295969888,
+        "deltas": {
+          "views": 23463,
+          "likes": 583,
+          "replies": 31,
+          "shares": 119
+        }
+      },
+      "1m": {
+        "views": 2435589,
+        "likes": 75369,
+        "replies": 2438,
+        "shares": 8586,
+        "trend": 527.4138245172736,
+        "growth": 136.51015715087146,
+        "deltas": {
+          "views": 40099,
+          "likes": 1147,
+          "replies": 43,
+          "shares": 163
+        }
+      },
+      "6m": {
+        "views": 2992295,
+        "likes": 92596,
+        "replies": 2995,
+        "shares": 10549,
+        "trend": 583.4368245172736,
+        "growth": 167.71247878535638,
+        "deltas": {
+          "views": 83662,
+          "likes": 2313,
+          "replies": 87,
+          "shares": 150
+        }
+      },
+      "1y": {
+        "views": 3270648,
+        "likes": 101209,
+        "replies": 3274,
+        "shares": 11530,
+        "trend": 533.6138245172735,
+        "growth": 183.3136396025988,
+        "deltas": {
+          "views": 39539,
+          "likes": 1735,
+          "replies": 79,
+          "shares": 158
+        }
+      },
+      "5y": {
+        "views": 3479413,
+        "likes": 107670,
+        "replies": 3483,
+        "shares": 12267,
+        "trend": 580.3708245172736,
+        "growth": 195.01451021553066,
+        "deltas": {
+          "views": 88096,
+          "likes": 1566,
+          "replies": 70,
+          "shares": 162
+        }
+      },
+      "10y": {
+        "views": 3479413,
+        "likes": 107670,
+        "replies": 3483,
+        "shares": 12267,
+        "trend": 611.3468245172736,
+        "growth": 195.01451021553066,
+        "deltas": {
+          "views": 99482,
+          "likes": 3184,
+          "replies": 77,
+          "shares": 242
+        }
+      },
+      "all": {
+        "views": 3479413,
+        "likes": 107670,
+        "replies": 3483,
+        "shares": 12267,
+        "trend": 600.3668245172736,
+        "growth": 195.01451021553066,
+        "deltas": {
+          "views": 94102,
+          "likes": 2610,
+          "replies": 91,
+          "shares": 235
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-13",
+    "author": "生活研究所",
+    "handle": "@trenduser13",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=生活研究所12",
+    "text": "剛整理完這週最重要的幾個變化，第一名真的完全沒想到。",
+    "postedAt": "19 小時前",
+    "region": "tw",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 171104,
+        "likes": 11260,
+        "replies": 1019,
+        "shares": 1222,
+        "trend": 998.0201275556223,
+        "growth": 12.29285159444528,
+        "deltas": {
+          "views": 5142,
+          "likes": 401,
+          "replies": 68,
+          "shares": 85
+        }
+      },
+      "1d": {
+        "views": 1026624,
+        "likes": 67561,
+        "replies": 6117,
+        "shares": 7335,
+        "trend": 1026.4831275556223,
+        "growth": 73.75710956667167,
+        "deltas": {
+          "views": 23685,
+          "likes": 885,
+          "replies": 96,
+          "shares": 191
+        }
+      },
+      "1w": {
+        "views": 2566560,
+        "likes": 168904,
+        "replies": 15292,
+        "shares": 18339,
+        "trend": 1097.9701275556222,
+        "growth": 184.3927739166792,
+        "deltas": {
+          "views": 68532,
+          "likes": 2241,
+          "replies": 376,
+          "shares": 308
+        }
+      },
+      "1m": {
+        "views": 3992426,
+        "likes": 262740,
+        "replies": 23788,
+        "shares": 28528,
+        "trend": 1201.6121275556222,
+        "growth": 286.8332038703898,
+        "deltas": {
+          "views": 117694,
+          "likes": 5195,
+          "replies": 506,
+          "shares": 834
+        }
+      },
+      "6m": {
+        "views": 4904981,
+        "likes": 322794,
+        "replies": 29226,
+        "shares": 35049,
+        "trend": 1192.7821275556223,
+        "growth": 352.3950790407647,
+        "deltas": {
+          "views": 77804,
+          "likes": 7981,
+          "replies": 870,
+          "shares": 641
+        }
+      },
+      "1y": {
+        "views": 5361258,
+        "likes": 352822,
+        "replies": 31944,
+        "shares": 38309,
+        "trend": 1203.7031275556224,
+        "growth": 385.17601662595206,
+        "deltas": {
+          "views": 71725,
+          "likes": 7755,
+          "replies": 900,
+          "shares": 1100
+        }
+      },
+      "5y": {
+        "views": 5703467,
+        "likes": 375343,
+        "replies": 33984,
+        "shares": 40755,
+        "trend": 1207.0831275556222,
+        "growth": 409.76171981484265,
+        "deltas": {
+          "views": 110015,
+          "likes": 6082,
+          "replies": 382,
+          "shares": 1034
+        }
+      },
+      "10y": {
+        "views": 5703467,
+        "likes": 375343,
+        "replies": 33984,
+        "shares": 40755,
+        "trend": 1219.9431275556224,
+        "growth": 409.76171981484265,
+        "deltas": {
+          "views": 117325,
+          "likes": 6232,
+          "replies": 997,
+          "shares": 674
+        }
+      },
+      "all": {
+        "views": 5703467,
+        "likes": 375343,
+        "replies": 33984,
+        "shares": 40755,
+        "trend": 1196.1331275556222,
+        "growth": 409.76171981484265,
+        "deltas": {
+          "views": 57585,
+          "likes": 10986,
+          "replies": 874,
+          "shares": 476
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-14",
+    "author": "Data Lab",
+    "handle": "@trenduser14",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Data Lab13",
+    "text": "如果你也在追這個主題，這張圖大概可以省下你半小時查資料的時間。",
+    "postedAt": "16 小時前",
+    "region": "tw",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 59798,
+        "likes": 3827,
+        "replies": 572,
+        "shares": 109,
+        "trend": 754.2325912031068,
+        "growth": 9.329782390038835,
+        "deltas": {
+          "views": 4290,
+          "likes": 199,
+          "replies": 43,
+          "shares": 7
+        }
+      },
+      "1d": {
+        "views": 358788,
+        "likes": 22966,
+        "replies": 3434,
+        "shares": 659,
+        "trend": 762.2105912031068,
+        "growth": 55.97869434023301,
+        "deltas": {
+          "views": 9528,
+          "likes": 447,
+          "replies": 49,
+          "shares": 9
+        }
+      },
+      "1w": {
+        "views": 896970,
+        "likes": 57417,
+        "replies": 8587,
+        "shares": 1649,
+        "trend": 783.0465912031068,
+        "growth": 139.94673585058254,
+        "deltas": {
+          "views": 25444,
+          "likes": 608,
+          "replies": 126,
+          "shares": 34
+        }
+      },
+      "1m": {
+        "views": 1395286,
+        "likes": 89315,
+        "replies": 13358,
+        "shares": 2565,
+        "trend": 816.9815912031069,
+        "growth": 217.6949224342395,
+        "deltas": {
+          "views": 36949,
+          "likes": 2266,
+          "replies": 305,
+          "shares": 46
+        }
+      },
+      "6m": {
+        "views": 1714209,
+        "likes": 109730,
+        "replies": 16411,
+        "shares": 3151,
+        "trend": 798.4955912031069,
+        "growth": 267.45376184777996,
+        "deltas": {
+          "views": 25653,
+          "likes": 1698,
+          "replies": 260,
+          "shares": 42
+        }
+      },
+      "1y": {
+        "views": 1873670,
+        "likes": 119938,
+        "replies": 17938,
+        "shares": 3445,
+        "trend": 827.5345912031069,
+        "growth": 292.33318155455015,
+        "deltas": {
+          "views": 35582,
+          "likes": 2774,
+          "replies": 525,
+          "shares": 52
+        }
+      },
+      "5y": {
+        "views": 1993267,
+        "likes": 127594,
+        "replies": 19083,
+        "shares": 3665,
+        "trend": 815.2615912031068,
+        "growth": 310.99274633462784,
+        "deltas": {
+          "views": 22499,
+          "likes": 3113,
+          "replies": 371,
+          "shares": 103
+        }
+      },
+      "10y": {
+        "views": 1993267,
+        "likes": 127594,
+        "replies": 19083,
+        "shares": 3665,
+        "trend": 825.4295912031068,
+        "growth": 310.99274633462784,
+        "deltas": {
+          "views": 35387,
+          "likes": 3004,
+          "replies": 390,
+          "shares": 48
+        }
+      },
+      "all": {
+        "views": 1993267,
+        "likes": 127594,
+        "replies": 19083,
+        "shares": 3665,
+        "trend": 838.9125912031068,
+        "growth": 310.99274633462784,
+        "deltas": {
+          "views": 59430,
+          "likes": 2133,
+          "replies": 271,
+          "shares": 91
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-15",
+    "author": "Daily Scope",
+    "handle": "@trenduser15",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Daily Scope14",
+    "text": "現場氣氛比影片看起來還誇張，最後幾分鐘全場直接站起來。",
+    "postedAt": "9 小時前",
+    "region": "jp",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 145431,
+        "likes": 4249,
+        "replies": 574,
+        "shares": 356,
+        "trend": 905.9932561856399,
+        "growth": 11.164040702320499,
+        "deltas": {
+          "views": 9330,
+          "likes": 270,
+          "replies": 16,
+          "shares": 9
+        }
+      },
+      "1d": {
+        "views": 872587,
+        "likes": 25497,
+        "replies": 3447,
+        "shares": 2136,
+        "trend": 910.8462561856398,
+        "growth": 66.98424421392299,
+        "deltas": {
+          "views": 9953,
+          "likes": 473,
+          "replies": 36,
+          "shares": 49
+        }
+      },
+      "1w": {
+        "views": 2181469,
+        "likes": 63744,
+        "replies": 8617,
+        "shares": 5340,
+        "trend": 972.8092561856399,
+        "growth": 167.46061053480747,
+        "deltas": {
+          "views": 53556,
+          "likes": 1736,
+          "replies": 191,
+          "shares": 76
+        }
+      },
+      "1m": {
+        "views": 3393397,
+        "likes": 99158,
+        "replies": 13405,
+        "shares": 8306,
+        "trend": 1034.36525618564,
+        "growth": 260.49428305414494,
+        "deltas": {
+          "views": 99252,
+          "likes": 2777,
+          "replies": 306,
+          "shares": 126
+        }
+      },
+      "6m": {
+        "views": 4169031,
+        "likes": 121823,
+        "replies": 16469,
+        "shares": 10205,
+        "trend": 1055.4482561856398,
+        "growth": 320.03583346652096,
+        "deltas": {
+          "views": 118335,
+          "likes": 1914,
+          "replies": 471,
+          "shares": 268
+        }
+      },
+      "1y": {
+        "views": 4556848,
+        "likes": 133155,
+        "replies": 18001,
+        "shares": 11154,
+        "trend": 996.4712561856398,
+        "growth": 349.80660867270893,
+        "deltas": {
+          "views": 46028,
+          "likes": 3863,
+          "replies": 471,
+          "shares": 114
+        }
+      },
+      "5y": {
+        "views": 4847711,
+        "likes": 141655,
+        "replies": 19150,
+        "shares": 11867,
+        "trend": 1044.82925618564,
+        "growth": 372.13469007734994,
+        "deltas": {
+          "views": 104926,
+          "likes": 2048,
+          "replies": 506,
+          "shares": 278
+        }
+      },
+      "10y": {
+        "views": 4847711,
+        "likes": 141655,
+        "replies": 19150,
+        "shares": 11867,
+        "trend": 1008.7752561856399,
+        "growth": 372.13469007734994,
+        "deltas": {
+          "views": 52042,
+          "likes": 3802,
+          "replies": 501,
+          "shares": 264
+        }
+      },
+      "all": {
+        "views": 4847711,
+        "likes": 141655,
+        "replies": 19150,
+        "shares": 11867,
+        "trend": 1035.85725618564,
+        "growth": 372.13469007734994,
+        "deltas": {
+          "views": 106114,
+          "likes": 1512,
+          "replies": 306,
+          "shares": 308
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-16",
+    "author": "Now Trending",
+    "handle": "@trenduser16",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Now Trending15",
+    "text": "很多人問我怎麼看，我把目前能確認的資料與我的觀察整理在這裡。",
+    "postedAt": "11 小時前",
+    "region": "kr",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 108871,
+        "likes": 7091,
+        "replies": 554,
+        "shares": 209,
+        "trend": 770.2341784819263,
+        "growth": 9.50056473102408,
+        "deltas": {
+          "views": 4529,
+          "likes": 429,
+          "replies": 31,
+          "shares": 11
+        }
+      },
+      "1d": {
+        "views": 653228,
+        "likes": 42551,
+        "replies": 3324,
+        "shares": 1257,
+        "trend": 781.5581784819263,
+        "growth": 57.00338838614447,
+        "deltas": {
+          "views": 13603,
+          "likes": 610,
+          "replies": 43,
+          "shares": 13
+        }
+      },
+      "1w": {
+        "views": 1633072,
+        "likes": 106378,
+        "replies": 8311,
+        "shares": 3143,
+        "trend": 822.7471784819263,
+        "growth": 142.5084709653612,
+        "deltas": {
+          "views": 38862,
+          "likes": 1418,
+          "replies": 226,
+          "shares": 72
+        }
+      },
+      "1m": {
+        "views": 2540334,
+        "likes": 165477,
+        "replies": 12929,
+        "shares": 4889,
+        "trend": 854.4881784819263,
+        "growth": 221.67984372389517,
+        "deltas": {
+          "views": 40973,
+          "likes": 4616,
+          "replies": 153,
+          "shares": 68
+        }
+      },
+      "6m": {
+        "views": 3120982,
+        "likes": 203300,
+        "replies": 15885,
+        "shares": 6007,
+        "trend": 894.4101784819263,
+        "growth": 272.3495222893569,
+        "deltas": {
+          "views": 80805,
+          "likes": 3539,
+          "replies": 447,
+          "shares": 119
+        }
+      },
+      "1y": {
+        "views": 3411306,
+        "likes": 222212,
+        "replies": 17362,
+        "shares": 6565,
+        "trend": 878.2021784819264,
+        "growth": 297.68436157208777,
+        "deltas": {
+          "views": 34117,
+          "likes": 6356,
+          "replies": 516,
+          "shares": 125
+        }
+      },
+      "5y": {
+        "views": 3629049,
+        "likes": 236396,
+        "replies": 18471,
+        "shares": 6985,
+        "trend": 917.7951784819263,
+        "growth": 316.68549103413596,
+        "deltas": {
+          "views": 88170,
+          "likes": 5592,
+          "replies": 222,
+          "shares": 175
+        }
+      },
+      "10y": {
+        "views": 3629049,
+        "likes": 236396,
+        "replies": 18471,
+        "shares": 6985,
+        "trend": 899.1211784819263,
+        "growth": 316.68549103413596,
+        "deltas": {
+          "views": 71996,
+          "likes": 5646,
+          "replies": 186,
+          "shares": 126
+        }
+      },
+      "all": {
+        "views": 3629049,
+        "likes": 236396,
+        "replies": 18471,
+        "shares": 6985,
+        "trend": 886.8661784819263,
+        "growth": 316.68549103413596,
+        "deltas": {
+          "views": 50601,
+          "likes": 6745,
+          "replies": 195,
+          "shares": 73
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-17",
+    "author": "科技觀察站",
+    "handle": "@trenduser17",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=科技觀察站16",
+    "text": "這個更新今天正式出現，介面看起來小改，但其實會改變使用習慣。",
+    "postedAt": "12 小時前",
+    "region": "kr",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 99586,
+        "likes": 3453,
+        "replies": 498,
+        "shares": 267,
+        "trend": 218.13175674330162,
+        "growth": 2.5912719592912703,
+        "deltas": {
+          "views": 7070,
+          "likes": 246,
+          "replies": 30,
+          "shares": 10
+        }
+      },
+      "1d": {
+        "views": 597516,
+        "likes": 20721,
+        "replies": 2993,
+        "shares": 1604,
+        "trend": 232.3907567433016,
+        "growth": 15.547631755747622,
+        "deltas": {
+          "views": 17429,
+          "likes": 357,
+          "replies": 87,
+          "shares": 37
+        }
+      },
+      "1w": {
+        "views": 1493792,
+        "likes": 51804,
+        "replies": 7483,
+        "shares": 4011,
+        "trend": 264.2377567433016,
+        "growth": 38.869079389369055,
+        "deltas": {
+          "views": 42376,
+          "likes": 835,
+          "replies": 87,
+          "shares": 90
+        }
+      },
+      "1m": {
+        "views": 2323676,
+        "likes": 80584,
+        "replies": 11641,
+        "shares": 6240,
+        "trend": 301.4877567433016,
+        "growth": 60.46301238346297,
+        "deltas": {
+          "views": 65096,
+          "likes": 1820,
+          "replies": 211,
+          "shares": 114
+        }
+      },
+      "6m": {
+        "views": 2854802,
+        "likes": 99003,
+        "replies": 14302,
+        "shares": 7666,
+        "trend": 330.6937567433016,
+        "growth": 74.28312949968308,
+        "deltas": {
+          "views": 82552,
+          "likes": 2151,
+          "replies": 399,
+          "shares": 184
+        }
+      },
+      "1y": {
+        "views": 3120365,
+        "likes": 108212,
+        "replies": 15633,
+        "shares": 8380,
+        "trend": 294.82675674330164,
+        "growth": 81.19318805779314,
+        "deltas": {
+          "views": 46705,
+          "likes": 1728,
+          "replies": 454,
+          "shares": 248
+        }
+      },
+      "5y": {
+        "views": 3319538,
+        "likes": 115120,
+        "replies": 16631,
+        "shares": 8915,
+        "trend": 339.3207567433016,
+        "growth": 86.37573197637568,
+        "deltas": {
+          "views": 97589,
+          "likes": 1534,
+          "replies": 367,
+          "shares": 202
+        }
+      },
+      "10y": {
+        "views": 3319538,
+        "likes": 115120,
+        "replies": 16631,
+        "shares": 8915,
+        "trend": 291.7907567433016,
+        "growth": 86.37573197637568,
+        "deltas": {
+          "views": 55719,
+          "likes": 1765,
+          "replies": 172,
+          "shares": 149
+        }
+      },
+      "all": {
+        "views": 3319538,
+        "likes": 115120,
+        "replies": 16631,
+        "shares": 8915,
+        "trend": 338.6127567433016,
+        "growth": 86.37573197637568,
+        "deltas": {
+          "views": 84981,
+          "likes": 2710,
+          "replies": 453,
+          "shares": 141
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-18",
+    "author": "市場筆記",
+    "handle": "@trenduser18",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=市場筆記17",
+    "text": "原本只是隨手測試，沒想到一小時內的互動成長比平常高很多。",
+    "postedAt": "2 小時前",
+    "region": "jp",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 203482,
+        "likes": 13535,
+        "replies": 888,
+        "shares": 1479,
+        "trend": 247.93207613974695,
+        "growth": 2.8269509517468365,
+        "deltas": {
+          "views": 11616,
+          "likes": 654,
+          "replies": 34,
+          "shares": 65
+        }
+      },
+      "1d": {
+        "views": 1220892,
+        "likes": 81213,
+        "replies": 5332,
+        "shares": 8878,
+        "trend": 280.22107613974697,
+        "growth": 16.96170571048102,
+        "deltas": {
+          "views": 31615,
+          "likes": 1595,
+          "replies": 58,
+          "shares": 119
+        }
+      },
+      "1w": {
+        "views": 3052230,
+        "likes": 203033,
+        "replies": 13331,
+        "shares": 22195,
+        "trend": 372.50607613974694,
+        "growth": 42.404264276202554,
+        "deltas": {
+          "views": 88250,
+          "likes": 2904,
+          "replies": 158,
+          "shares": 608
+        }
+      },
+      "1m": {
+        "views": 4747914,
+        "likes": 315829,
+        "replies": 20737,
+        "shares": 34526,
+        "trend": 420.71507613974694,
+        "growth": 65.96218887409286,
+        "deltas": {
+          "views": 87579,
+          "likes": 7680,
+          "replies": 490,
+          "shares": 387
+        }
+      },
+      "6m": {
+        "views": 5833152,
+        "likes": 388019,
+        "replies": 25477,
+        "shares": 42418,
+        "trend": 408.48707613974693,
+        "growth": 81.03926061674265,
+        "deltas": {
+          "views": 73231,
+          "likes": 7845,
+          "replies": 431,
+          "shares": 443
+        }
+      },
+      "1y": {
+        "views": 6375770,
+        "likes": 424113,
+        "replies": 27847,
+        "shares": 46364,
+        "trend": 494.066076139747,
+        "growth": 88.57779648806755,
+        "deltas": {
+          "views": 91600,
+          "likes": 11632,
+          "replies": 509,
+          "shares": 1118
+        }
+      },
+      "5y": {
+        "views": 6782735,
+        "likes": 451185,
+        "replies": 29625,
+        "shares": 49324,
+        "trend": 457.6270761397469,
+        "growth": 94.23169839156122,
+        "deltas": {
+          "views": 80371,
+          "likes": 11485,
+          "replies": 447,
+          "shares": 571
+        }
+      },
+      "10y": {
+        "views": 6782735,
+        "likes": 451185,
+        "replies": 29625,
+        "shares": 49324,
+        "trend": 524.309076139747,
+        "growth": 94.23169839156122,
+        "deltas": {
+          "views": 181383,
+          "likes": 7863,
+          "replies": 422,
+          "shares": 637
+        }
+      },
+      "all": {
+        "views": 6782735,
+        "likes": 451185,
+        "replies": 29625,
+        "shares": 49324,
+        "trend": 454.9790761397469,
+        "growth": 94.23169839156122,
+        "deltas": {
+          "views": 132393,
+          "likes": 4823,
+          "replies": 396,
+          "shares": 908
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-19",
+    "author": "球場速報",
+    "handle": "@trenduser19",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=球場速報18",
+    "text": "如果只看總數很容易看錯，真正有趣的是最近一小時突然開始加速。",
+    "postedAt": "22 小時前",
+    "region": "jp",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 31925,
+        "likes": 2262,
+        "replies": 168,
+        "shares": 225,
+        "trend": 697.4288603530905,
+        "growth": 8.66578575441363,
+        "deltas": {
+          "views": 2506,
+          "likes": 103,
+          "replies": 13,
+          "shares": 6
+        }
+      },
+      "1d": {
+        "views": 191551,
+        "likes": 13577,
+        "replies": 1009,
+        "shares": 1354,
+        "trend": 701.9898603530904,
+        "growth": 51.99471452648178,
+        "deltas": {
+          "views": 3797,
+          "likes": 311,
+          "replies": 10,
+          "shares": 38
+        }
+      },
+      "1w": {
+        "views": 478879,
+        "likes": 33943,
+        "replies": 2524,
+        "shares": 3385,
+        "trend": 712.9628603530905,
+        "growth": 129.98678631620447,
+        "deltas": {
+          "views": 11300,
+          "likes": 492,
+          "replies": 56,
+          "shares": 45
+        }
+      },
+      "1m": {
+        "views": 744923,
+        "likes": 52801,
+        "replies": 3927,
+        "shares": 5266,
+        "trend": 721.0648603530905,
+        "growth": 202.2016676029847,
+        "deltas": {
+          "views": 14952,
+          "likes": 593,
+          "replies": 76,
+          "shares": 116
+        }
+      },
+      "6m": {
+        "views": 915191,
+        "likes": 64869,
+        "replies": 4825,
+        "shares": 6470,
+        "trend": 718.1128603530905,
+        "growth": 248.41919162652408,
+        "deltas": {
+          "views": 10110,
+          "likes": 744,
+          "replies": 50,
+          "shares": 145
+        }
+      },
+      "1y": {
+        "views": 1000325,
+        "likes": 70904,
+        "replies": 5274,
+        "shares": 7072,
+        "trend": 744.9938603530904,
+        "growth": 271.52795363829375,
+        "deltas": {
+          "views": 28181,
+          "likes": 1540,
+          "replies": 113,
+          "shares": 119
+        }
+      },
+      "5y": {
+        "views": 1064176,
+        "likes": 75430,
+        "replies": 5611,
+        "shares": 7524,
+        "trend": 741.2698603530905,
+        "growth": 288.859525147121,
+        "deltas": {
+          "views": 15007,
+          "likes": 2006,
+          "replies": 138,
+          "shares": 220
+        }
+      },
+      "10y": {
+        "views": 1064176,
+        "likes": 75430,
+        "replies": 5611,
+        "shares": 7524,
+        "trend": 750.9338603530905,
+        "growth": 288.859525147121,
+        "deltas": {
+          "views": 30851,
+          "likes": 1660,
+          "replies": 70,
+          "shares": 203
+        }
+      },
+      "all": {
+        "views": 1064176,
+        "likes": 75430,
+        "replies": 5611,
+        "shares": 7524,
+        "trend": 741.2098603530904,
+        "growth": 288.859525147121,
+        "deltas": {
+          "views": 28817,
+          "likes": 1392,
+          "replies": 63,
+          "shares": 83
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-20",
+    "author": "娛樂雷達",
+    "handle": "@trenduser20",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=娛樂雷達19",
+    "text": "今天最值得收藏的一篇：把複雜的事情一次整理到看得懂。",
+    "postedAt": "17 小時前",
+    "region": "us",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 171555,
+        "likes": 15816,
+        "replies": 2172,
+        "shares": 632,
+        "trend": 884.1769244318588,
+        "growth": 10.781536555398235,
+        "deltas": {
+          "views": 10634,
+          "likes": 582,
+          "replies": 140,
+          "shares": 25
+        }
+      },
+      "1d": {
+        "views": 1029330,
+        "likes": 94900,
+        "replies": 13035,
+        "shares": 3796,
+        "trend": 907.5569244318588,
+        "growth": 64.68921933238941,
+        "deltas": {
+          "views": 13084,
+          "likes": 1756,
+          "replies": 389,
+          "shares": 68
+        }
+      },
+      "1w": {
+        "views": 2573326,
+        "likes": 237250,
+        "replies": 32587,
+        "shares": 9491,
+        "trend": 1011.1579244318588,
+        "growth": 161.72304833097354,
+        "deltas": {
+          "views": 60675,
+          "likes": 6068,
+          "replies": 740,
+          "shares": 127
+        }
+      },
+      "1m": {
+        "views": 4002952,
+        "likes": 369056,
+        "replies": 50691,
+        "shares": 14765,
+        "trend": 1072.7469244318588,
+        "growth": 251.5691862926255,
+        "deltas": {
+          "views": 92344,
+          "likes": 8710,
+          "replies": 782,
+          "shares": 183
+        }
+      },
+      "6m": {
+        "views": 4917912,
+        "likes": 453412,
+        "replies": 62278,
+        "shares": 18139,
+        "trend": 1086.2569244318588,
+        "growth": 309.07071458808275,
+        "deltas": {
+          "views": 54854,
+          "likes": 10844,
+          "replies": 1764,
+          "shares": 188
+        }
+      },
+      "1y": {
+        "views": 5375392,
+        "likes": 495590,
+        "replies": 68071,
+        "shares": 19827,
+        "trend": 1163.8569244318587,
+        "growth": 337.82147873581135,
+        "deltas": {
+          "views": 97844,
+          "likes": 12812,
+          "replies": 1843,
+          "shares": 502
+        }
+      },
+      "5y": {
+        "views": 5718503,
+        "likes": 527224,
+        "replies": 72417,
+        "shares": 21093,
+        "trend": 1066.7449244318589,
+        "growth": 359.38455184660785,
+        "deltas": {
+          "views": 75312,
+          "likes": 8980,
+          "replies": 805,
+          "shares": 374
+        }
+      },
+      "10y": {
+        "views": 5718503,
+        "likes": 527224,
+        "replies": 72417,
+        "shares": 21093,
+        "trend": 1161.8949244318587,
+        "growth": 359.38455184660785,
+        "deltas": {
+          "views": 142332,
+          "likes": 8028,
+          "replies": 2132,
+          "shares": 320
+        }
+      },
+      "all": {
+        "views": 5718503,
+        "likes": 527224,
+        "replies": 72417,
+        "shares": 21093,
+        "trend": 1151.0059244318588,
+        "growth": 359.38455184660785,
+        "deltas": {
+          "views": 113493,
+          "likes": 11021,
+          "replies": 1478,
+          "shares": 511
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-21",
+    "author": "生活研究所",
+    "handle": "@trenduser21",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=生活研究所20",
+    "text": "今天看到一個很有意思的新功能，實際測完後比我原本預期還實用。",
+    "postedAt": "3 小時前",
+    "region": "tw",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 42493,
+        "likes": 3921,
+        "replies": 413,
+        "shares": 453,
+        "trend": 833.6492964019559,
+        "growth": 10.358741205024447,
+        "deltas": {
+          "views": 2090,
+          "likes": 142,
+          "replies": 16,
+          "shares": 24
+        }
+      },
+      "1d": {
+        "views": 254961,
+        "likes": 23531,
+        "replies": 2482,
+        "shares": 2722,
+        "trend": 842.2102964019558,
+        "growth": 62.152447230146684,
+        "deltas": {
+          "views": 6421,
+          "likes": 460,
+          "replies": 27,
+          "shares": 42
+        }
+      },
+      "1w": {
+        "views": 637404,
+        "likes": 58829,
+        "replies": 6205,
+        "shares": 6805,
+        "trend": 859.5052964019559,
+        "growth": 155.38111807536671,
+        "deltas": {
+          "views": 13326,
+          "likes": 796,
+          "replies": 172,
+          "shares": 109
+        }
+      },
+      "1m": {
+        "views": 991517,
+        "likes": 91513,
+        "replies": 9653,
+        "shares": 10586,
+        "trend": 878.2412964019559,
+        "growth": 241.70396145057043,
+        "deltas": {
+          "views": 12152,
+          "likes": 2588,
+          "replies": 185,
+          "shares": 149
+        }
+      },
+      "6m": {
+        "views": 1218150,
+        "likes": 112430,
+        "replies": 11860,
+        "shares": 13005,
+        "trend": 884.8702964019559,
+        "growth": 296.9505812107008,
+        "deltas": {
+          "views": 14441,
+          "likes": 2305,
+          "replies": 340,
+          "shares": 212
+        }
+      },
+      "1y": {
+        "views": 1331466,
+        "likes": 122889,
+        "replies": 12963,
+        "shares": 14215,
+        "trend": 908.5122964019558,
+        "growth": 324.57389109076604,
+        "deltas": {
+          "views": 22963,
+          "likes": 3346,
+          "replies": 297,
+          "shares": 362
+        }
+      },
+      "5y": {
+        "views": 1416454,
+        "likes": 130733,
+        "replies": 13791,
+        "shares": 15123,
+        "trend": 901.4672964019559,
+        "growth": 345.2913735008149,
+        "deltas": {
+          "views": 14228,
+          "likes": 3556,
+          "replies": 410,
+          "shares": 267
+        }
+      },
+      "10y": {
+        "views": 1416454,
+        "likes": 130733,
+        "replies": 13791,
+        "shares": 15123,
+        "trend": 905.4922964019559,
+        "growth": 345.2913735008149,
+        "deltas": {
+          "views": 37103,
+          "likes": 1632,
+          "replies": 207,
+          "shares": 429
+        }
+      },
+      "all": {
+        "views": 1416454,
+        "likes": 130733,
+        "replies": 13791,
+        "shares": 15123,
+        "trend": 886.7022964019559,
+        "growth": 345.2913735008149,
+        "deltas": {
+          "views": 20453,
+          "likes": 2300,
+          "replies": 225,
+          "shares": 195
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-22",
+    "author": "Data Lab",
+    "handle": "@trenduser22",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Data Lab21",
+    "text": "這件事情真正值得注意的，不是表面的數字，而是背後成長速度突然加快。",
+    "postedAt": "11 小時前",
+    "region": "jp",
+    "topic": "finance",
+    "topicLabel": "財經",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 44691,
+        "likes": 2197,
+        "replies": 255,
+        "shares": 118,
+        "trend": 302.6225868948644,
+        "growth": 3.729619836185805,
+        "deltas": {
+          "views": 2703,
+          "likes": 82,
+          "replies": 15,
+          "shares": 7
+        }
+      },
+      "1d": {
+        "views": 268149,
+        "likes": 13184,
+        "replies": 1530,
+        "shares": 711,
+        "trend": 310.4805868948644,
+        "growth": 22.37771901711483,
+        "deltas": {
+          "views": 7951,
+          "likes": 235,
+          "replies": 43,
+          "shares": 13
+        }
+      },
+      "1w": {
+        "views": 670373,
+        "likes": 32962,
+        "replies": 3826,
+        "shares": 1779,
+        "trend": 328.7905868948644,
+        "growth": 55.944297542787076,
+        "deltas": {
+          "views": 19991,
+          "likes": 694,
+          "replies": 59,
+          "shares": 43
+        }
+      },
+      "1m": {
+        "views": 1042803,
+        "likes": 51274,
+        "replies": 5952,
+        "shares": 2767,
+        "trend": 339.8845868948644,
+        "growth": 87.02446284433545,
+        "deltas": {
+          "views": 29615,
+          "likes": 662,
+          "replies": 104,
+          "shares": 54
+        }
+      },
+      "6m": {
+        "views": 1281158,
+        "likes": 62994,
+        "replies": 7312,
+        "shares": 3400,
+        "trend": 358.9105868948644,
+        "growth": 106.91576863732641,
+        "deltas": {
+          "views": 36401,
+          "likes": 1779,
+          "replies": 109,
+          "shares": 77
+        }
+      },
+      "1y": {
+        "views": 1400335,
+        "likes": 68854,
+        "replies": 7992,
+        "shares": 3716,
+        "trend": 350.68158689486444,
+        "growth": 116.86142153382188,
+        "deltas": {
+          "views": 32222,
+          "likes": 1473,
+          "replies": 88,
+          "shares": 68
+        }
+      },
+      "5y": {
+        "views": 1489719,
+        "likes": 73249,
+        "replies": 8503,
+        "shares": 3954,
+        "trend": 362.99658689486444,
+        "growth": 124.3206612061935,
+        "deltas": {
+          "views": 41977,
+          "likes": 1130,
+          "replies": 245,
+          "shares": 100
+        }
+      },
+      "10y": {
+        "views": 1489719,
+        "likes": 73249,
+        "replies": 8503,
+        "shares": 3954,
+        "trend": 343.72258689486443,
+        "growth": 124.3206612061935,
+        "deltas": {
+          "views": 26733,
+          "likes": 1070,
+          "replies": 120,
+          "shares": 108
+        }
+      },
+      "all": {
+        "views": 1489719,
+        "likes": 73249,
+        "replies": 8503,
+        "shares": 3954,
+        "trend": 359.3195868948644,
+        "growth": 124.3206612061935,
+        "deltas": {
+          "views": 33240,
+          "likes": 1943,
+          "replies": 156,
+          "shares": 90
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-23",
+    "author": "Daily Scope",
+    "handle": "@trenduser23",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Daily Scope22",
+    "text": "剛整理完這週最重要的幾個變化，第一名真的完全沒想到。",
+    "postedAt": "22 小時前",
+    "region": "tw",
+    "topic": "finance",
+    "topicLabel": "財經",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 101697,
+        "likes": 3338,
+        "replies": 299,
+        "shares": 134,
+        "trend": 484.95026526630795,
+        "growth": 5.936890815828849,
+        "deltas": {
+          "views": 7329,
+          "likes": 203,
+          "replies": 12,
+          "shares": 7
+        }
+      },
+      "1d": {
+        "views": 610183,
+        "likes": 20030,
+        "replies": 1798,
+        "shares": 807,
+        "trend": 492.47726526630794,
+        "growth": 35.62134489497309,
+        "deltas": {
+          "views": 10106,
+          "likes": 560,
+          "replies": 50,
+          "shares": 8
+        }
+      },
+      "1w": {
+        "views": 1525458,
+        "likes": 50076,
+        "replies": 4495,
+        "shares": 2017,
+        "trend": 521.5112652663079,
+        "growth": 89.05336223743274,
+        "deltas": {
+          "views": 32800,
+          "likes": 950,
+          "replies": 70,
+          "shares": 54
+        }
+      },
+      "1m": {
+        "views": 2372935,
+        "likes": 77897,
+        "replies": 6993,
+        "shares": 3138,
+        "trend": 531.1402652663079,
+        "growth": 138.5274523693398,
+        "deltas": {
+          "views": 34249,
+          "likes": 1271,
+          "replies": 189,
+          "shares": 89
+        }
+      },
+      "6m": {
+        "views": 2915320,
+        "likes": 95702,
+        "replies": 8592,
+        "shares": 3856,
+        "trend": 540.921265266308,
+        "growth": 170.19087005376034,
+        "deltas": {
+          "views": 40680,
+          "likes": 1476,
+          "replies": 203,
+          "shares": 111
+        }
+      },
+      "1y": {
+        "views": 3186513,
+        "likes": 104605,
+        "replies": 9391,
+        "shares": 4214,
+        "trend": 586.6482652663079,
+        "growth": 186.02257889597058,
+        "deltas": {
+          "views": 87527,
+          "likes": 1682,
+          "replies": 97,
+          "shares": 111
+        }
+      },
+      "5y": {
+        "views": 3389908,
+        "likes": 111282,
+        "replies": 9991,
+        "shares": 4484,
+        "trend": 566.9912652663079,
+        "growth": 197.8963605276283,
+        "deltas": {
+          "views": 53280,
+          "likes": 2549,
+          "replies": 281,
+          "shares": 121
+        }
+      },
+      "10y": {
+        "views": 3389908,
+        "likes": 111282,
+        "replies": 9991,
+        "shares": 4484,
+        "trend": 561.5422652663079,
+        "growth": 197.8963605276283,
+        "deltas": {
+          "views": 47061,
+          "likes": 2912,
+          "replies": 219,
+          "shares": 96
+        }
+      },
+      "all": {
+        "views": 3389908,
+        "likes": 111282,
+        "replies": 9991,
+        "shares": 4484,
+        "trend": 582.118265266308,
+        "growth": 197.8963605276283,
+        "deltas": {
+          "views": 65597,
+          "likes": 2976,
+          "replies": 255,
+          "shares": 104
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-24",
+    "author": "Now Trending",
+    "handle": "@trenduser24",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Now Trending23",
+    "text": "如果你也在追這個主題，這張圖大概可以省下你半小時查資料的時間。",
+    "postedAt": "15 小時前",
+    "region": "tw",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 103952,
+        "likes": 6750,
+        "replies": 585,
+        "shares": 150,
+        "trend": 304.7408088872519,
+        "growth": 3.7060226110906482,
+        "deltas": {
+          "views": 2859,
+          "likes": 430,
+          "replies": 30,
+          "shares": 5
+        }
+      },
+      "1d": {
+        "views": 623715,
+        "likes": 40504,
+        "replies": 3515,
+        "shares": 905,
+        "trend": 318.6328088872519,
+        "growth": 22.23613566654389,
+        "deltas": {
+          "views": 10811,
+          "likes": 880,
+          "replies": 70,
+          "shares": 11
+        }
+      },
+      "1w": {
+        "views": 1559288,
+        "likes": 101260,
+        "replies": 8788,
+        "shares": 2264,
+        "trend": 334.1568088872519,
+        "growth": 55.590339166359726,
+        "deltas": {
+          "views": 17695,
+          "likes": 1114,
+          "replies": 260,
+          "shares": 26
+        }
+      },
+      "1m": {
+        "views": 2425560,
+        "likes": 157516,
+        "replies": 13670,
+        "shares": 3522,
+        "trend": 387.74180888725186,
+        "growth": 86.47386092544846,
+        "deltas": {
+          "views": 42140,
+          "likes": 4017,
+          "replies": 161,
+          "shares": 103
+        }
+      },
+      "6m": {
+        "views": 2979973,
+        "likes": 193519,
+        "replies": 16794,
+        "shares": 4327,
+        "trend": 389.34080888725185,
+        "growth": 106.23931485126525,
+        "deltas": {
+          "views": 45599,
+          "likes": 3102,
+          "replies": 372,
+          "shares": 127
+        }
+      },
+      "1y": {
+        "views": 3257180,
+        "likes": 211521,
+        "replies": 18357,
+        "shares": 4730,
+        "trend": 398.5128088872519,
+        "growth": 116.12204181417364,
+        "deltas": {
+          "views": 50681,
+          "likes": 4158,
+          "replies": 219,
+          "shares": 80
+        }
+      },
+      "5y": {
+        "views": 3465086,
+        "likes": 225023,
+        "replies": 19529,
+        "shares": 5032,
+        "trend": 414.40580888725185,
+        "growth": 123.53408703635495,
+        "deltas": {
+          "views": 64534,
+          "likes": 4145,
+          "replies": 318,
+          "shares": 60
+        }
+      },
+      "10y": {
+        "views": 3465086,
+        "likes": 225023,
+        "replies": 19529,
+        "shares": 5032,
+        "trend": 405.2168088872519,
+        "growth": 123.53408703635495,
+        "deltas": {
+          "views": 37125,
+          "likes": 5079,
+          "replies": 558,
+          "shares": 102
+        }
+      },
+      "all": {
+        "views": 3465086,
+        "likes": 225023,
+        "replies": 19529,
+        "shares": 5032,
+        "trend": 430.2498088872519,
+        "growth": 123.53408703635495,
+        "deltas": {
+          "views": 92038,
+          "likes": 2862,
+          "replies": 369,
+          "shares": 51
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-25",
+    "author": "科技觀察站",
+    "handle": "@trenduser25",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=科技觀察站24",
+    "text": "現場氣氛比影片看起來還誇張，最後幾分鐘全場直接站起來。",
+    "postedAt": "13 小時前",
+    "region": "kr",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 6292,
+        "likes": 499,
+        "replies": 48,
+        "shares": 21,
+        "trend": 557.9397357262408,
+        "growth": 6.963796696578009,
+        "deltas": {
+          "views": 486,
+          "likes": 22,
+          "replies": 3,
+          "shares": 1
+        }
+      },
+      "1d": {
+        "views": 37755,
+        "likes": 2998,
+        "replies": 291,
+        "shares": 128,
+        "trend": 558.7897357262408,
+        "growth": 41.782780179468055,
+        "deltas": {
+          "views": 736,
+          "likes": 79,
+          "replies": 4,
+          "shares": 1
+        }
+      },
+      "1w": {
+        "views": 94388,
+        "likes": 7495,
+        "replies": 729,
+        "shares": 321,
+        "trend": 560.3117357262407,
+        "growth": 104.45695044867014,
+        "deltas": {
+          "views": 978,
+          "likes": 178,
+          "replies": 7,
+          "shares": 6
+        }
+      },
+      "1m": {
+        "views": 146827,
+        "likes": 11659,
+        "replies": 1135,
+        "shares": 499,
+        "trend": 565.2687357262407,
+        "growth": 162.4885895868202,
+        "deltas": {
+          "views": 4185,
+          "likes": 280,
+          "replies": 30,
+          "shares": 7
+        }
+      },
+      "6m": {
+        "views": 180387,
+        "likes": 14324,
+        "replies": 1394,
+        "shares": 614,
+        "trend": 566.4857357262407,
+        "growth": 199.62883863523626,
+        "deltas": {
+          "views": 5152,
+          "likes": 271,
+          "replies": 40,
+          "shares": 8
+        }
+      },
+      "1y": {
+        "views": 197167,
+        "likes": 15656,
+        "replies": 1524,
+        "shares": 671,
+        "trend": 564.1897357262408,
+        "growth": 218.19896315944428,
+        "deltas": {
+          "views": 2976,
+          "likes": 255,
+          "replies": 28,
+          "shares": 18
+        }
+      },
+      "5y": {
+        "views": 209753,
+        "likes": 16656,
+        "replies": 1622,
+        "shares": 714,
+        "trend": 567.2807357262408,
+        "growth": 232.1265565526003,
+        "deltas": {
+          "views": 5477,
+          "likes": 344,
+          "replies": 22,
+          "shares": 15
+        }
+      },
+      "10y": {
+        "views": 209753,
+        "likes": 16656,
+        "replies": 1622,
+        "shares": 714,
+        "trend": 566.4497357262408,
+        "growth": 232.1265565526003,
+        "deltas": {
+          "views": 3916,
+          "likes": 370,
+          "replies": 47,
+          "shares": 8
+        }
+      },
+      "all": {
+        "views": 209753,
+        "likes": 16656,
+        "replies": 1622,
+        "shares": 714,
+        "trend": 568.6147357262407,
+        "growth": 232.1265565526003,
+        "deltas": {
+          "views": 5861,
+          "likes": 426,
+          "replies": 33,
+          "shares": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-26",
+    "author": "市場筆記",
+    "handle": "@trenduser26",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=市場筆記25",
+    "text": "很多人問我怎麼看，我把目前能確認的資料與我的觀察整理在這裡。",
+    "postedAt": "1 小時前",
+    "region": "kr",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 29677,
+        "likes": 1874,
+        "replies": 293,
+        "shares": 41,
+        "trend": 709.5168618672366,
+        "growth": 8.835160773340457,
+        "deltas": {
+          "views": 1424,
+          "likes": 50,
+          "replies": 22,
+          "shares": 3
+        }
+      },
+      "1d": {
+        "views": 178064,
+        "likes": 11247,
+        "replies": 1760,
+        "shares": 246,
+        "trend": 714.7638618672366,
+        "growth": 53.010964640042744,
+        "deltas": {
+          "views": 4051,
+          "likes": 244,
+          "replies": 46,
+          "shares": 2
+        }
+      },
+      "1w": {
+        "views": 445161,
+        "likes": 28118,
+        "replies": 4401,
+        "shares": 616,
+        "trend": 728.7778618672367,
+        "growth": 132.52741160010686,
+        "deltas": {
+          "views": 10155,
+          "likes": 806,
+          "replies": 117,
+          "shares": 6
+        }
+      },
+      "1m": {
+        "views": 692472,
+        "likes": 43740,
+        "replies": 6846,
+        "shares": 958,
+        "trend": 735.3558618672366,
+        "growth": 206.153751377944,
+        "deltas": {
+          "views": 13723,
+          "likes": 948,
+          "replies": 154,
+          "shares": 18
+        }
+      },
+      "6m": {
+        "views": 850752,
+        "likes": 53737,
+        "replies": 8411,
+        "shares": 1177,
+        "trend": 740.3418618672366,
+        "growth": 253.27460883575978,
+        "deltas": {
+          "views": 15769,
+          "likes": 1050,
+          "replies": 218,
+          "shares": 18
+        }
+      },
+      "1y": {
+        "views": 929892,
+        "likes": 58736,
+        "replies": 9194,
+        "shares": 1286,
+        "trend": 739.2068618672366,
+        "growth": 276.83503756466763,
+        "deltas": {
+          "views": 21634,
+          "likes": 589,
+          "replies": 117,
+          "shares": 34
+        }
+      },
+      "5y": {
+        "views": 989247,
+        "likes": 62486,
+        "replies": 9781,
+        "shares": 1369,
+        "trend": 748.4298618672366,
+        "growth": 294.5053591113486,
+        "deltas": {
+          "views": 17077,
+          "likes": 1519,
+          "replies": 273,
+          "shares": 29
+        }
+      },
+      "10y": {
+        "views": 989247,
+        "likes": 62486,
+        "replies": 9781,
+        "shares": 1369,
+        "trend": 744.8808618672366,
+        "growth": 294.5053591113486,
+        "deltas": {
+          "views": 22118,
+          "likes": 1143,
+          "replies": 108,
+          "shares": 32
+        }
+      },
+      "all": {
+        "views": 989247,
+        "likes": 62486,
+        "replies": 9781,
+        "shares": 1369,
+        "trend": 740.1578618672366,
+        "growth": 294.5053591113486,
+        "deltas": {
+          "views": 18715,
+          "likes": 983,
+          "replies": 140,
+          "shares": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-27",
+    "author": "球場速報",
+    "handle": "@trenduser27",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=球場速報26",
+    "text": "這個更新今天正式出現，介面看起來小改，但其實會改變使用習慣。",
+    "postedAt": "5 小時前",
+    "region": "us",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 56975,
+        "likes": 1346,
+        "replies": 207,
+        "shares": 148,
+        "trend": 35.381736938911516,
+        "growth": 0.3683217117363939,
+        "deltas": {
+          "views": 4396,
+          "likes": 92,
+          "replies": 8,
+          "shares": 9
+        }
+      },
+      "1d": {
+        "views": 341850,
+        "likes": 8078,
+        "replies": 1247,
+        "shares": 889,
+        "trend": 36.57973693891151,
+        "growth": 2.209930270418363,
+        "deltas": {
+          "views": 4014,
+          "likes": 174,
+          "replies": 32,
+          "shares": 10
+        }
+      },
+      "1w": {
+        "views": 854625,
+        "likes": 20195,
+        "replies": 3118,
+        "shares": 2224,
+        "trend": 49.64173693891151,
+        "growth": 5.524825676045909,
+        "deltas": {
+          "views": 11416,
+          "likes": 579,
+          "replies": 59,
+          "shares": 30
+        }
+      },
+      "1m": {
+        "views": 1329417,
+        "likes": 31414,
+        "replies": 4851,
+        "shares": 3460,
+        "trend": 63.32173693891151,
+        "growth": 8.59417327384919,
+        "deltas": {
+          "views": 23446,
+          "likes": 527,
+          "replies": 50,
+          "shares": 91
+        }
+      },
+      "6m": {
+        "views": 1633284,
+        "likes": 38595,
+        "replies": 5959,
+        "shares": 4251,
+        "trend": 76.95873693891151,
+        "growth": 10.558555736443292,
+        "deltas": {
+          "views": 29863,
+          "likes": 857,
+          "replies": 138,
+          "shares": 123
+        }
+      },
+      "1y": {
+        "views": 1785217,
+        "likes": 42185,
+        "replies": 6514,
+        "shares": 4647,
+        "trend": 93.41473693891152,
+        "growth": 11.540746967740342,
+        "deltas": {
+          "views": 47569,
+          "likes": 887,
+          "replies": 113,
+          "shares": 103
+        }
+      },
+      "5y": {
+        "views": 1899168,
+        "likes": 44878,
+        "replies": 6930,
+        "shares": 4944,
+        "trend": 73.50873693891151,
+        "growth": 12.27739039121313,
+        "deltas": {
+          "views": 27373,
+          "likes": 594,
+          "replies": 167,
+          "shares": 143
+        }
+      },
+      "10y": {
+        "views": 1899168,
+        "likes": 44878,
+        "replies": 6930,
+        "shares": 4944,
+        "trend": 97.3697369389115,
+        "growth": 12.27739039121313,
+        "deltas": {
+          "views": 52754,
+          "likes": 532,
+          "replies": 169,
+          "shares": 119
+        }
+      },
+      "all": {
+        "views": 1899168,
+        "likes": 44878,
+        "replies": 6930,
+        "shares": 4944,
+        "trend": 93.82473693891151,
+        "growth": 12.27739039121313,
+        "deltas": {
+          "views": 47189,
+          "likes": 804,
+          "replies": 135,
+          "shares": 127
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-28",
+    "author": "娛樂雷達",
+    "handle": "@trenduser28",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=娛樂雷達27",
+    "text": "原本只是隨手測試，沒想到一小時內的互動成長比平常高很多。",
+    "postedAt": "12 小時前",
+    "region": "jp",
+    "topic": "tech",
+    "topicLabel": "科技 / AI",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 184114,
+        "likes": 7061,
+        "replies": 800,
+        "shares": 328,
+        "trend": 669.6295963482612,
+        "growth": 8.173857454353264,
+        "deltas": {
+          "views": 11491,
+          "likes": 202,
+          "replies": 43,
+          "shares": 23
+        }
+      },
+      "1d": {
+        "views": 1104686,
+        "likes": 42367,
+        "replies": 4802,
+        "shares": 1970,
+        "trend": 680.2795963482612,
+        "growth": 49.043144726119586,
+        "deltas": {
+          "views": 14541,
+          "likes": 691,
+          "replies": 92,
+          "shares": 54
+        }
+      },
+      "1w": {
+        "views": 2761716,
+        "likes": 105918,
+        "replies": 12007,
+        "shares": 4926,
+        "trend": 764.1805963482612,
+        "growth": 122.60786181529897,
+        "deltas": {
+          "views": 68792,
+          "likes": 2708,
+          "replies": 312,
+          "shares": 126
+        }
+      },
+      "1m": {
+        "views": 4296002,
+        "likes": 164762,
+        "replies": 18678,
+        "shares": 7663,
+        "trend": 796.7235963482613,
+        "growth": 190.72334060157618,
+        "deltas": {
+          "views": 97975,
+          "likes": 2446,
+          "replies": 546,
+          "shares": 100
+        }
+      },
+      "6m": {
+        "views": 5277946,
+        "likes": 202422,
+        "replies": 22947,
+        "shares": 9415,
+        "trend": 868.5905963482612,
+        "growth": 234.3172470247936,
+        "deltas": {
+          "views": 151342,
+          "likes": 3894,
+          "replies": 628,
+          "shares": 139
+        }
+      },
+      "1y": {
+        "views": 5768918,
+        "likes": 221252,
+        "replies": 25082,
+        "shares": 10291,
+        "trend": 801.2195963482612,
+        "growth": 256.11420023640227,
+        "deltas": {
+          "views": 89461,
+          "likes": 4325,
+          "replies": 328,
+          "shares": 119
+        }
+      },
+      "5y": {
+        "views": 6137147,
+        "likes": 235375,
+        "replies": 26683,
+        "shares": 10948,
+        "trend": 890.5565963482612,
+        "growth": 272.46191514510883,
+        "deltas": {
+          "views": 168688,
+          "likes": 4532,
+          "replies": 432,
+          "shares": 242
+        }
+      },
+      "10y": {
+        "views": 6137147,
+        "likes": 235375,
+        "replies": 26683,
+        "shares": 10948,
+        "trend": 840.0095963482612,
+        "growth": 272.46191514510883,
+        "deltas": {
+          "views": 99161,
+          "likes": 6216,
+          "replies": 486,
+          "shares": 255
+        }
+      },
+      "all": {
+        "views": 6137147,
+        "likes": 235375,
+        "replies": 26683,
+        "shares": 10948,
+        "trend": 849.3955963482613,
+        "growth": 272.46191514510883,
+        "deltas": {
+          "views": 114157,
+          "likes": 4916,
+          "replies": 659,
+          "shares": 310
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-29",
+    "author": "生活研究所",
+    "handle": "@trenduser29",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=生活研究所28",
+    "text": "如果只看總數很容易看錯，真正有趣的是最近一小時突然開始加速。",
+    "postedAt": "5 小時前",
+    "region": "us",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 16249,
+        "likes": 648,
+        "replies": 52,
+        "shares": 76,
+        "trend": 863.5412021245694,
+        "growth": 10.782152526557116,
+        "deltas": {
+          "views": 449,
+          "likes": 37,
+          "replies": 1,
+          "shares": 3
+        }
+      },
+      "1d": {
+        "views": 97495,
+        "likes": 3891,
+        "replies": 312,
+        "shares": 458,
+        "trend": 866.2402021245694,
+        "growth": 64.6929151593427,
+        "deltas": {
+          "views": 2048,
+          "likes": 100,
+          "replies": 6,
+          "shares": 11
+        }
+      },
+      "1w": {
+        "views": 243738,
+        "likes": 9728,
+        "replies": 782,
+        "shares": 1145,
+        "trend": 869.7172021245693,
+        "growth": 161.73228789835676,
+        "deltas": {
+          "views": 3395,
+          "likes": 255,
+          "replies": 20,
+          "shares": 15
+        }
+      },
+      "1m": {
+        "views": 379148,
+        "likes": 15132,
+        "replies": 1216,
+        "shares": 1781,
+        "trend": 875.3292021245693,
+        "growth": 251.58355895299937,
+        "deltas": {
+          "views": 6377,
+          "likes": 416,
+          "replies": 30,
+          "shares": 33
+        }
+      },
+      "6m": {
+        "views": 465810,
+        "likes": 18591,
+        "replies": 1494,
+        "shares": 2188,
+        "trend": 876.9032021245694,
+        "growth": 309.0883724279707,
+        "deltas": {
+          "views": 7561,
+          "likes": 378,
+          "replies": 17,
+          "shares": 62
+        }
+      },
+      "1y": {
+        "views": 509141,
+        "likes": 20320,
+        "replies": 1633,
+        "shares": 2392,
+        "trend": 877.3352021245694,
+        "growth": 337.8407791654563,
+        "deltas": {
+          "views": 7693,
+          "likes": 417,
+          "replies": 34,
+          "shares": 47
+        }
+      },
+      "5y": {
+        "views": 541640,
+        "likes": 21618,
+        "replies": 1738,
+        "shares": 2545,
+        "trend": 880.1742021245693,
+        "growth": 359.40508421857055,
+        "deltas": {
+          "views": 8342,
+          "likes": 561,
+          "replies": 31,
+          "shares": 68
+        }
+      },
+      "10y": {
+        "views": 541640,
+        "likes": 21618,
+        "replies": 1738,
+        "shares": 2545,
+        "trend": 885.3372021245693,
+        "growth": 359.40508421857055,
+        "deltas": {
+          "views": 12565,
+          "likes": 608,
+          "replies": 52,
+          "shares": 64
+        }
+      },
+      "all": {
+        "views": 541640,
+        "likes": 21618,
+        "replies": 1738,
+        "shares": 2545,
+        "trend": 878.5872021245693,
+        "growth": 359.40508421857055,
+        "deltas": {
+          "views": 10895,
+          "likes": 280,
+          "replies": 32,
+          "shares": 34
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-30",
+    "author": "Data Lab",
+    "handle": "@trenduser30",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Data Lab29",
+    "text": "今天最值得收藏的一篇：把複雜的事情一次整理到看得懂。",
+    "postedAt": "12 小時前",
+    "region": "tw",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 70556,
+        "likes": 4551,
+        "replies": 548,
+        "shares": 313,
+        "trend": 364.99193760894684,
+        "growth": 4.458386720111835,
+        "deltas": {
+          "views": 4641,
+          "likes": 195,
+          "replies": 31,
+          "shares": 20
+        }
+      },
+      "1d": {
+        "views": 423340,
+        "likes": 27307,
+        "replies": 3289,
+        "shares": 1882,
+        "trend": 374.44393760894684,
+        "growth": 26.750320320671012,
+        "deltas": {
+          "views": 9573,
+          "likes": 356,
+          "replies": 92,
+          "shares": 47
+        }
+      },
+      "1w": {
+        "views": 1058350,
+        "likes": 68269,
+        "replies": 8223,
+        "shares": 4706,
+        "trend": 393.7619376089468,
+        "growth": 66.87580080167753,
+        "deltas": {
+          "views": 20201,
+          "likes": 919,
+          "replies": 150,
+          "shares": 80
+        }
+      },
+      "1m": {
+        "views": 1646322,
+        "likes": 106196,
+        "replies": 12792,
+        "shares": 7321,
+        "trend": 409.1079376089468,
+        "growth": 104.02902346927615,
+        "deltas": {
+          "views": 28957,
+          "likes": 1157,
+          "replies": 277,
+          "shares": 90
+        }
+      },
+      "6m": {
+        "views": 2022624,
+        "likes": 130469,
+        "replies": 15716,
+        "shares": 8994,
+        "trend": 452.8599376089468,
+        "growth": 127.80708597653927,
+        "deltas": {
+          "views": 54679,
+          "likes": 2688,
+          "replies": 185,
+          "shares": 227
+        }
+      },
+      "1y": {
+        "views": 2210775,
+        "likes": 142606,
+        "replies": 17178,
+        "shares": 9831,
+        "trend": 463.77093760894684,
+        "growth": 139.69611723017084,
+        "deltas": {
+          "views": 56430,
+          "likes": 3777,
+          "replies": 202,
+          "shares": 171
+        }
+      },
+      "5y": {
+        "views": 2351889,
+        "likes": 151709,
+        "replies": 18275,
+        "shares": 10459,
+        "trend": 441.5369376089468,
+        "growth": 148.6128906703945,
+        "deltas": {
+          "views": 31676,
+          "likes": 2913,
+          "replies": 438,
+          "shares": 273
+        }
+      },
+      "10y": {
+        "views": 2351889,
+        "likes": 151709,
+        "replies": 18275,
+        "shares": 10459,
+        "trend": 448.1059376089468,
+        "growth": 148.6128906703945,
+        "deltas": {
+          "views": 57445,
+          "likes": 2314,
+          "replies": 211,
+          "shares": 113
+        }
+      },
+      "all": {
+        "views": 2351889,
+        "likes": 151709,
+        "replies": 18275,
+        "shares": 10459,
+        "trend": 461.9469376089468,
+        "growth": 148.6128906703945,
+        "deltas": {
+          "views": 54786,
+          "likes": 2642,
+          "replies": 525,
+          "shares": 208
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-31",
+    "author": "Daily Scope",
+    "handle": "@trenduser31",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Daily Scope30",
+    "text": "今天看到一個很有意思的新功能，實際測完後比我原本預期還實用。",
+    "postedAt": "5 小時前",
+    "region": "kr",
+    "topic": "finance",
+    "topicLabel": "財經",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 112331,
+        "likes": 10678,
+        "replies": 564,
+        "shares": 946,
+        "trend": 787.2578450262617,
+        "growth": 9.609073062828271,
+        "deltas": {
+          "views": 7082,
+          "likes": 793,
+          "replies": 20,
+          "shares": 73
+        }
+      },
+      "1d": {
+        "views": 673990,
+        "likes": 64069,
+        "replies": 3384,
+        "shares": 5677,
+        "trend": 805.8628450262618,
+        "growth": 57.65443837696963,
+        "deltas": {
+          "views": 19447,
+          "likes": 1089,
+          "replies": 56,
+          "shares": 128
+        }
+      },
+      "1w": {
+        "views": 1684977,
+        "likes": 160172,
+        "replies": 8460,
+        "shares": 14193,
+        "trend": 836.8058450262617,
+        "growth": 144.13609594242408,
+        "deltas": {
+          "views": 34340,
+          "likes": 1716,
+          "replies": 226,
+          "shares": 245
+        }
+      },
+      "1m": {
+        "views": 2621075,
+        "likes": 249157,
+        "replies": 13161,
+        "shares": 22079,
+        "trend": 916.3918450262618,
+        "growth": 224.21170479932633,
+        "deltas": {
+          "views": 58756,
+          "likes": 6172,
+          "replies": 389,
+          "shares": 388
+        }
+      },
+      "6m": {
+        "views": 3220178,
+        "likes": 306107,
+        "replies": 16169,
+        "shares": 27126,
+        "trend": 956.6398450262617,
+        "growth": 275.4600944677438,
+        "deltas": {
+          "views": 72054,
+          "likes": 8693,
+          "replies": 387,
+          "shares": 433
+        }
+      },
+      "1y": {
+        "views": 3519730,
+        "likes": 334582,
+        "replies": 17673,
+        "shares": 29649,
+        "trend": 929.3558450262617,
+        "growth": 301.0842893019525,
+        "deltas": {
+          "views": 52530,
+          "likes": 7445,
+          "replies": 403,
+          "shares": 539
+        }
+      },
+      "5y": {
+        "views": 3744394,
+        "likes": 355939,
+        "replies": 18802,
+        "shares": 31542,
+        "trend": 951.8038450262617,
+        "growth": 320.30243542760905,
+        "deltas": {
+          "views": 94108,
+          "likes": 4104,
+          "replies": 403,
+          "shares": 896
+        }
+      },
+      "10y": {
+        "views": 3744394,
+        "likes": 355939,
+        "replies": 18802,
+        "shares": 31542,
+        "trend": 933.9708450262617,
+        "growth": 320.30243542760905,
+        "deltas": {
+          "views": 69945,
+          "likes": 5531,
+          "replies": 465,
+          "shares": 651
+        }
+      },
+      "all": {
+        "views": 3744394,
+        "likes": 355939,
+        "replies": 18802,
+        "shares": 31542,
+        "trend": 901.9198450262618,
+        "growth": 320.30243542760905,
+        "deltas": {
+          "views": 53334,
+          "likes": 5458,
+          "replies": 292,
+          "shares": 413
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-32",
+    "author": "Now Trending",
+    "handle": "@trenduser32",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=Now Trending31",
+    "text": "這件事情真正值得注意的，不是表面的數字，而是背後成長速度突然加快。",
+    "postedAt": "3 小時前",
+    "region": "jp",
+    "topic": "sports",
+    "topicLabel": "運動",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 6582,
+        "likes": 309,
+        "replies": 48,
+        "shares": 21,
+        "trend": 41.038077183271135,
+        "growth": 0.5043134647908892,
+        "deltas": {
+          "views": 423,
+          "likes": 17,
+          "replies": 2,
+          "shares": 1
+        }
+      },
+      "1d": {
+        "views": 39492,
+        "likes": 1859,
+        "replies": 290,
+        "shares": 127,
+        "trend": 41.916077183271135,
+        "growth": 3.0258807887453356,
+        "deltas": {
+          "views": 981,
+          "likes": 29,
+          "replies": 6,
+          "shares": 3
+        }
+      },
+      "1w": {
+        "views": 98730,
+        "likes": 4649,
+        "replies": 725,
+        "shares": 319,
+        "trend": 44.242077183271135,
+        "growth": 7.5647019718633395,
+        "deltas": {
+          "views": 2267,
+          "likes": 100,
+          "replies": 17,
+          "shares": 3
+        }
+      },
+      "1m": {
+        "views": 153580,
+        "likes": 7232,
+        "replies": 1129,
+        "shares": 496,
+        "trend": 46.31107718327114,
+        "growth": 11.767314178454082,
+        "deltas": {
+          "views": 2936,
+          "likes": 210,
+          "replies": 15,
+          "shares": 12
+        }
+      },
+      "6m": {
+        "views": 188684,
+        "likes": 8885,
+        "replies": 1387,
+        "shares": 610,
+        "trend": 44.501077183271136,
+        "growth": 14.456985990672159,
+        "deltas": {
+          "views": 2026,
+          "likes": 107,
+          "replies": 14,
+          "shares": 16
+        }
+      },
+      "1y": {
+        "views": 206236,
+        "likes": 9712,
+        "replies": 1516,
+        "shares": 667,
+        "trend": 49.11907718327114,
+        "growth": 15.801821896781195,
+        "deltas": {
+          "views": 4764,
+          "likes": 265,
+          "replies": 28,
+          "shares": 13
+        }
+      },
+      "5y": {
+        "views": 219401,
+        "likes": 10332,
+        "replies": 1613,
+        "shares": 710,
+        "trend": 50.541077183271135,
+        "growth": 16.810448826362975,
+        "deltas": {
+          "views": 6566,
+          "likes": 228,
+          "replies": 29,
+          "shares": 12
+        }
+      },
+      "10y": {
+        "views": 219401,
+        "likes": 10332,
+        "replies": 1613,
+        "shares": 710,
+        "trend": 46.117077183271135,
+        "growth": 16.810448826362975,
+        "deltas": {
+          "views": 2522,
+          "likes": 215,
+          "replies": 18,
+          "shares": 14
+        }
+      },
+      "all": {
+        "views": 219401,
+        "likes": 10332,
+        "replies": 1613,
+        "shares": 710,
+        "trend": 48.36607718327114,
+        "growth": 16.810448826362975,
+        "deltas": {
+          "views": 4351,
+          "likes": 217,
+          "replies": 38,
+          "shares": 9
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-33",
+    "author": "科技觀察站",
+    "handle": "@trenduser33",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=科技觀察站32",
+    "text": "剛整理完這週最重要的幾個變化，第一名真的完全沒想到。",
+    "postedAt": "19 小時前",
+    "region": "jp",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 173056,
+        "likes": 8806,
+        "replies": 980,
+        "shares": 699,
+        "trend": 43.05733367201957,
+        "growth": 0.31085417090024464,
+        "deltas": {
+          "views": 11349,
+          "likes": 266,
+          "replies": 66,
+          "shares": 55
+        }
+      },
+      "1d": {
+        "views": 1038339,
+        "likes": 52839,
+        "replies": 5880,
+        "shares": 4198,
+        "trend": 48.42533367201957,
+        "growth": 1.8651250254014677,
+        "deltas": {
+          "views": 11217,
+          "likes": 615,
+          "replies": 133,
+          "shares": 55
+        }
+      },
+      "1w": {
+        "views": 2595847,
+        "likes": 132098,
+        "replies": 14701,
+        "shares": 10497,
+        "trend": 143.50133367201957,
+        "growth": 4.66281256350367,
+        "deltas": {
+          "views": 74203,
+          "likes": 2866,
+          "replies": 351,
+          "shares": 131
+        }
+      },
+      "1m": {
+        "views": 4037985,
+        "likes": 205487,
+        "replies": 22869,
+        "shares": 16328,
+        "trend": 195.77433367201957,
+        "growth": 7.253263987672375,
+        "deltas": {
+          "views": 90946,
+          "likes": 5296,
+          "replies": 332,
+          "shares": 426
+        }
+      },
+      "6m": {
+        "views": 4960953,
+        "likes": 252455,
+        "replies": 28097,
+        "shares": 20061,
+        "trend": 256.9683336720196,
+        "growth": 8.911152899140346,
+        "deltas": {
+          "views": 131190,
+          "likes": 6802,
+          "replies": 635,
+          "shares": 346
+        }
+      },
+      "1y": {
+        "views": 5422437,
+        "likes": 275939,
+        "replies": 30710,
+        "shares": 21927,
+        "trend": 256.5643336720196,
+        "growth": 9.740097354874331,
+        "deltas": {
+          "views": 160786,
+          "likes": 4332,
+          "replies": 553,
+          "shares": 275
+        }
+      },
+      "5y": {
+        "views": 5768551,
+        "likes": 293553,
+        "replies": 32671,
+        "shares": 23327,
+        "trend": 223.67033367201958,
+        "growth": 10.361805696674821,
+        "deltas": {
+          "views": 111052,
+          "likes": 4692,
+          "replies": 633,
+          "shares": 546
+        }
+      },
+      "10y": {
+        "views": 5768551,
+        "likes": 293553,
+        "replies": 32671,
+        "shares": 23327,
+        "trend": 189.20733367201956,
+        "growth": 10.361805696674821,
+        "deltas": {
+          "views": 67479,
+          "likes": 5190,
+          "replies": 924,
+          "shares": 431
+        }
+      },
+      "all": {
+        "views": 5768551,
+        "likes": 293553,
+        "replies": 32671,
+        "shares": 23327,
+        "trend": 226.87133367201955,
+        "growth": 10.361805696674821,
+        "deltas": {
+          "views": 119363,
+          "likes": 3172,
+          "replies": 972,
+          "shares": 544
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-34",
+    "author": "市場筆記",
+    "handle": "@trenduser34",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=市場筆記33",
+    "text": "如果你也在追這個主題，這張圖大概可以省下你半小時查資料的時間。",
+    "postedAt": "6 小時前",
+    "region": "tw",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 84749,
+        "likes": 2405,
+        "replies": 340,
+        "shares": 218,
+        "trend": 713.0282032059586,
+        "growth": 8.808002540074481,
+        "deltas": {
+          "views": 6338,
+          "likes": 83,
+          "replies": 22,
+          "shares": 14
+        }
+      },
+      "1d": {
+        "views": 508495,
+        "likes": 14432,
+        "replies": 2041,
+        "shares": 1308,
+        "trend": 725.0802032059585,
+        "growth": 52.84801524044689,
+        "deltas": {
+          "views": 13950,
+          "likes": 412,
+          "replies": 55,
+          "shares": 18
+        }
+      },
+      "1w": {
+        "views": 1271238,
+        "likes": 36082,
+        "replies": 5104,
+        "shares": 3270,
+        "trend": 751.5112032059585,
+        "growth": 132.12003810111725,
+        "deltas": {
+          "views": 33851,
+          "likes": 670,
+          "replies": 120,
+          "shares": 68
+        }
+      },
+      "1m": {
+        "views": 1977481,
+        "likes": 56128,
+        "replies": 7940,
+        "shares": 5087,
+        "trend": 751.1422032059586,
+        "growth": 205.52005926840457,
+        "deltas": {
+          "views": 31592,
+          "likes": 579,
+          "replies": 176,
+          "shares": 96
+        }
+      },
+      "6m": {
+        "views": 2429477,
+        "likes": 68957,
+        "replies": 9754,
+        "shares": 6250,
+        "trend": 798.2192032059585,
+        "growth": 252.49607281546847,
+        "deltas": {
+          "views": 70359,
+          "likes": 908,
+          "replies": 262,
+          "shares": 157
+        }
+      },
+      "1y": {
+        "views": 2655475,
+        "likes": 75372,
+        "replies": 10662,
+        "shares": 6831,
+        "trend": 766.0582032059585,
+        "growth": 275.98407958900043,
+        "deltas": {
+          "views": 33108,
+          "likes": 1576,
+          "replies": 285,
+          "shares": 100
+        }
+      },
+      "5y": {
+        "views": 2824974,
+        "likes": 80183,
+        "replies": 11343,
+        "shares": 7268,
+        "trend": 815.1112032059585,
+        "growth": 293.6000846691494,
+        "deltas": {
+          "views": 72391,
+          "likes": 2112,
+          "replies": 276,
+          "shares": 217
+        }
+      },
+      "10y": {
+        "views": 2824974,
+        "likes": 80183,
+        "replies": 11343,
+        "shares": 7268,
+        "trend": 752.6552032059585,
+        "growth": 293.6000846691494,
+        "deltas": {
+          "views": 31875,
+          "likes": 879,
+          "replies": 125,
+          "shares": 90
+        }
+      },
+      "all": {
+        "views": 2824974,
+        "likes": 80183,
+        "replies": 11343,
+        "shares": 7268,
+        "trend": 756.5982032059585,
+        "growth": 293.6000846691494,
+        "deltas": {
+          "views": 29618,
+          "likes": 1381,
+          "replies": 163,
+          "shares": 91
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-35",
+    "author": "球場速報",
+    "handle": "@trenduser35",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=球場速報34",
+    "text": "現場氣氛比影片看起來還誇張，最後幾分鐘全場直接站起來。",
+    "postedAt": "12 小時前",
+    "region": "kr",
+    "topic": "ent",
+    "topicLabel": "娛樂",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 100666,
+        "likes": 6786,
+        "replies": 705,
+        "shares": 333,
+        "trend": 248.76265790715593,
+        "growth": 2.969183223839449,
+        "deltas": {
+          "views": 5218,
+          "likes": 443,
+          "replies": 30,
+          "shares": 17
+        }
+      },
+      "1d": {
+        "views": 604000,
+        "likes": 40720,
+        "replies": 4231,
+        "shares": 2003,
+        "trend": 259.0346579071559,
+        "growth": 17.815099343036692,
+        "deltas": {
+          "views": 6290,
+          "likes": 1130,
+          "replies": 101,
+          "shares": 22
+        }
+      },
+      "1w": {
+        "views": 1510000,
+        "likes": 101800,
+        "replies": 10578,
+        "shares": 5008,
+        "trend": 296.18265790715594,
+        "growth": 44.53774835759174,
+        "deltas": {
+          "views": 29288,
+          "likes": 1921,
+          "replies": 221,
+          "shares": 88
+        }
+      },
+      "1m": {
+        "views": 2348889,
+        "likes": 158356,
+        "replies": 16454,
+        "shares": 7790,
+        "trend": 319.95965790715593,
+        "growth": 69.28094188958714,
+        "deltas": {
+          "views": 37255,
+          "likes": 2481,
+          "replies": 432,
+          "shares": 185
+        }
+      },
+      "6m": {
+        "views": 2885779,
+        "likes": 194552,
+        "replies": 20216,
+        "shares": 9571,
+        "trend": 375.41465790715597,
+        "growth": 85.1165857500642,
+        "deltas": {
+          "views": 73960,
+          "likes": 3847,
+          "replies": 587,
+          "shares": 196
+        }
+      },
+      "1y": {
+        "views": 3154223,
+        "likes": 212650,
+        "replies": 22096,
+        "shares": 10462,
+        "trend": 393.1356579071559,
+        "growth": 93.03440768030273,
+        "deltas": {
+          "views": 85561,
+          "likes": 4623,
+          "replies": 475,
+          "shares": 239
+        }
+      },
+      "5y": {
+        "views": 3355557,
+        "likes": 226224,
+        "replies": 23507,
+        "shares": 11130,
+        "trend": 390.43465790715595,
+        "growth": 98.97277412798164,
+        "deltas": {
+          "views": 89830,
+          "likes": 4358,
+          "replies": 251,
+          "shares": 299
+        }
+      },
+      "10y": {
+        "views": 3355557,
+        "likes": 226224,
+        "replies": 23507,
+        "shares": 11130,
+        "trend": 335.5996579071559,
+        "growth": 98.97277412798164,
+        "deltas": {
+          "views": 37945,
+          "likes": 3766,
+          "replies": 418,
+          "shares": 248
+        }
+      },
+      "all": {
+        "views": 3355557,
+        "likes": 226224,
+        "replies": 23507,
+        "shares": 11130,
+        "trend": 360.25765790715593,
+        "growth": 98.97277412798164,
+        "deltas": {
+          "views": 42713,
+          "likes": 5026,
+          "replies": 577,
+          "shares": 311
+        }
+      }
+    }
+  },
+  {
+    "id": "demo-36",
+    "author": "娛樂雷達",
+    "handle": "@trenduser36",
+    "avatar": "https://api.dicebear.com/9.x/initials/svg?seed=娛樂雷達35",
+    "text": "很多人問我怎麼看，我把目前能確認的資料與我的觀察整理在這裡。",
+    "postedAt": "7 小時前",
+    "region": "tw",
+    "topic": "life",
+    "topicLabel": "生活",
+    "url": "https://www.threads.net/",
+    "newEntry": false,
+    "ranges": {
+      "1h": {
+        "views": 192968,
+        "likes": 11820,
+        "replies": 1597,
+        "shares": 721,
+        "trend": 423.88794519820453,
+        "growth": 5.044024314977557,
+        "deltas": {
+          "views": 13216,
+          "likes": 377,
+          "replies": 82,
+          "shares": 23
+        }
+      },
+      "1d": {
+        "views": 1157811,
+        "likes": 70925,
+        "replies": 9586,
+        "shares": 4331,
+        "trend": 449.8789451982045,
+        "growth": 30.264145889865343,
+        "deltas": {
+          "views": 26947,
+          "likes": 1065,
+          "replies": 224,
+          "shares": 51
+        }
+      },
+      "1w": {
+        "views": 2894528,
+        "likes": 177313,
+        "replies": 23966,
+        "shares": 10828,
+        "trend": 544.1009451982045,
+        "growth": 75.66036472466335,
+        "deltas": {
+          "views": 82609,
+          "likes": 2840,
+          "replies": 571,
+          "shares": 311
+        }
+      },
+      "1m": {
+        "views": 4502599,
+        "likes": 275821,
+        "replies": 37281,
+        "shares": 16844,
+        "trend": 608.3659451982046,
+        "growth": 117.69390068280966,
+        "deltas": {
+          "views": 81184,
+          "likes": 7834,
+          "replies": 1048,
+          "shares": 347
+        }
+      },
+      "6m": {
+        "views": 5531765,
+        "likes": 338866,
+        "replies": 45802,
+        "shares": 20695,
+        "trend": 672.7999451982046,
+        "growth": 144.5953636960233,
+        "deltas": {
+          "views": 128068,
+          "likes": 8626,
+          "replies": 1321,
+          "shares": 383
+        }
+      },
+      "1y": {
+        "views": 6046347,
+        "likes": 370389,
+        "replies": 50063,
+        "shares": 22620,
+        "trend": 603.7329451982046,
+        "growth": 158.0460952026301,
+        "deltas": {
+          "views": 83081,
+          "likes": 6142,
+          "replies": 1053,
+          "shares": 603
+        }
+      },
+      "5y": {
+        "views": 6432285,
+        "likes": 394031,
+        "replies": 53259,
+        "shares": 24064,
+        "trend": 603.4419451982045,
+        "growth": 168.13414383258524,
+        "deltas": {
+          "views": 68660,
+          "likes": 6050,
+          "replies": 1564,
+          "shares": 596
+        }
+      },
+      "10y": {
+        "views": 6432285,
+        "likes": 394031,
+        "replies": 53259,
+        "shares": 24064,
+        "trend": 617.1419451982046,
+        "growth": 168.13414383258524,
+        "deltas": {
+          "views": 103620,
+          "likes": 6649,
+          "replies": 701,
+          "shares": 562
+        }
+      },
+      "all": {
+        "views": 6432285,
+        "likes": 394031,
+        "replies": 53259,
+        "shares": 24064,
+        "trend": 738.5049451982045,
+        "growth": 168.13414383258524,
+        "deltas": {
+          "views": 183373,
+          "likes": 11374,
+          "replies": 801,
+          "shares": 346
+        }
+      }
+    }
+  }
+]
